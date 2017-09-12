@@ -3,6 +3,7 @@ package com.example.jojstepersan.asistenciak;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
@@ -61,12 +62,24 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private EditText mPasswordView;
     private View mProgressView;
     private View mLoginFormView;
+    Button login;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         // Set up the login form.
+        login=(Button)findViewById(R.id.email_sign_in_button);
+        login.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+              Intent siguiente = new Intent(LoginActivity.this, PanelActivity.class);
+                startActivity(siguiente);
+            }
+        }
+
+        );
+
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
         populateAutoComplete();
 
@@ -82,13 +95,13 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             }
         });
 
-        Button mEmailSignInButton = (Button) findViewById(R.id.email_sign_in_button);
-        mEmailSignInButton.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                attemptLogin();
-            }
-        });
+       // Button mEmailSignInButton = (Button) findViewById(R.id.email_sign_in_button);
+        //mEmailSignInButton.setOnClickListener(new OnClickListener() {
+           // @Override
+            //public void onClick(View view) {
+             //   attemptLogin();
+           // }
+        //});
 
         mLoginFormView = findViewById(R.id.login_form);
         mProgressView = findViewById(R.id.login_progress);
