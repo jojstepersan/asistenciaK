@@ -8,4 +8,5 @@
     <dimen name="corner_radius">10dp</dimen>
     <dimen name="icon_profile">300dp</dimen>
     <dimen name="icon_profile_margin">20dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
 </resources>

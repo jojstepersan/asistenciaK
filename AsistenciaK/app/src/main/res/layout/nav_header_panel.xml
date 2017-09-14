@@ -44,16 +44,7 @@
                 android:text="Asistenciask@konradlorenz.edu.co" />
 
         </LinearLayout>
-        <FrameLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
-    <android:android.support.v4.widget.CircleImageView
-        layout_width="wrap_content"
-        layout_height="match_parent">
-
-    </android:android.support.v4.widget.CircleImageView>
-
-        </FrameLayout>
+       
     </FrameLayout>
 
 </FrameLayout>
