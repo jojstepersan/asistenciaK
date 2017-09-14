@@ -68,8 +68,9 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
         // Set up the login form.
-        login=(Button)findViewById(R.id.email_sign_in_button);
+        login=(Button)findViewById(R.id.buttonLogin);
         login.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -80,14 +81,14 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
         );
 
-        mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
-        populateAutoComplete();
+      //  mEmailView = (AutoCompleteTextView) findViewById(R.id.user);
+      /*  populateAutoComplete();
 
         mPasswordView = (EditText) findViewById(R.id.password);
         mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView textView, int id, KeyEvent keyEvent) {
-                if (id == R.id.login || id == EditorInfo.IME_NULL) {
+                if (id == R.id.password || id == EditorInfo.IME_NULL) {
                     attemptLogin();
                     return true;
                 }
@@ -103,8 +104,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
            // }
         //});
 
-        mLoginFormView = findViewById(R.id.login_form);
-        mProgressView = findViewById(R.id.login_progress);
+       // mLoginFormView = findViewById(R.id.login_form);
+        //mProgressView = findViewById(R.id.login_progress);*/
     }
 
     private void populateAutoComplete() {
