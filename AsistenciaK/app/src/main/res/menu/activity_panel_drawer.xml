@@ -5,20 +5,20 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_courses"
+            android:icon="@drawable/ic_school_black_24dp"
             android:title="Materia I Gr.51" />
 
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_courses"
+            android:icon="@drawable/ic_school_black_24dp"
             android:title="Materia I Gr.1" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_courses"
+            android:icon="@drawable/ic_school_black_24dp"
             android:title="Materia II Gr.1" />
         <item
             android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_courses"
+            android:icon="@drawable/ic_school_black_24dp"
             android:title="Materia II Gr.51" />
     </group>
 
