@@ -104,8 +104,7 @@ public class PanelActivity extends AppCompatActivity
         if (id == R.id.nav_camera) {
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
-            Intent siguiente = new Intent(PanelActivity.this, Main2Activity.class);
-            startActivity(siguiente);
+
 
         } else if (id == R.id.nav_slideshow) {
 
