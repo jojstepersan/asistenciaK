@@ -19,20 +19,30 @@ tools:showIn="@layout/activity_main">
         android:id="@+id/cardView">
 
         <ImageView
-            android:layout_width="100dp"
-            android:layout_height="90dp"
-            android:src="@drawable/ic_calculo"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="5dp"/>
+            android:layout_width="83dp"
+            android:layout_height="68dp"
+            android:src="@drawable/ic_materia"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"/>
+
         <TextView
             android:id="@+id/textureView1"
-            android:layout_width="270dp"
-            android:layout_height="match_parent"
-            android:background="@color/white"
-            android:layout_marginLeft="110dp"
-            android:text=" Calculo integral\n Gr. 51  Stu:30 "
+            android:layout_width="250dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="120dp"
+            android:textColor="@color/black"
             android:fontFamily="@string/app_name"
-            android:textSize="36dp"/>
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/almost_white"
+            android:text="Fundamento de matematicas\n Gr. 1   "
+            android:textSize="17dp"
+            android:textAlignment="center"/>
+
+
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
@@ -44,20 +54,29 @@ tools:showIn="@layout/activity_main">
         android:id="@+id/cardView2" >
 
         <ImageView
-            android:layout_width="100dp"
-            android:layout_height="90dp"
-            android:src="@drawable/ic_calculo"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="5dp"/>
+            android:layout_width="83dp"
+            android:layout_height="68dp"
+            android:src="@drawable/ic_user"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"/>
+
         <TextView
             android:id="@+id/textureView2"
-            android:layout_width="270dp"
-            android:layout_height="match_parent"
+            android:layout_width="250dp"
+            android:layout_height="68dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="120dp"
             android:background="@color/white"
-            android:layout_marginLeft="110dp"
-            android:text=" Calculo diferencial\n Gr. 1  Stu:20 "
             android:fontFamily="@string/app_name"
-            android:textSize="31dp"/>
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Ecuaciones diferenciales\n Gr. 1  "
+            android:textSize="17dp"
+            android:backgroundTint="@color/almost_white"
+            android:textAlignment="center"/>
 
     </android.support.v7.widget.CardView>
 
@@ -69,20 +88,29 @@ tools:showIn="@layout/activity_main">
         android:layout_alignParentStart="true"
         android:id="@+id/cardView3">
         <ImageView
-            android:layout_width="100dp"
-            android:layout_height="90dp"
-            android:src="@drawable/ic_calculo"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="5dp"/>
+            android:layout_width="83dp"
+            android:layout_height="68dp"
+            android:src="@drawable/ic_materia"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"/>
+
         <TextView
             android:id="@+id/textureView3"
-            android:layout_width="270dp"
-            android:layout_height="match_parent"
+            android:layout_width="250dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="120dp"
+            android:textColor="@color/black"
             android:background="@color/white"
-            android:layout_marginLeft="110dp"
-            android:text=" Fundamento de matematicas\n Gr. 1  Stu:30 "
             android:fontFamily="@string/app_name"
-            android:textSize="20dp"/>
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Calculo diferencial\n Gr. 1   "
+            android:textSize="17dp"
+            android:backgroundTint="@color/almost_white"
+            android:textAlignment="center"/>
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
@@ -93,21 +121,29 @@ tools:showIn="@layout/activity_main">
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
         <ImageView
-            android:layout_width="100dp"
-            android:layout_height="90dp"
-            android:src="@drawable/ic_calculo"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="5dp"/>
+            android:layout_width="83dp"
+            android:layout_height="68dp"
+            android:src="@drawable/ic_action_name"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"/>
 
         <TextView
             android:id="@+id/textureView4"
-            android:layout_width="270dp"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="110dp"
+            android:layout_width="250dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="120dp"
             android:background="@color/white"
             android:fontFamily="@string/app_name"
-            android:text=" Calculo integral\n Gr. 51  Stu:30 "
-            android:textSize="36dp" />
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Calculo integral\n Gr. 1   "
+            android:textSize="17dp"
+            android:backgroundTint="@color/almost_white"
+            android:textAlignment="center"/>
     </android.support.v7.widget.CardView>
     <android.support.v7.widget.CardView
         android:layout_width="500dp"
@@ -116,19 +152,28 @@ tools:showIn="@layout/activity_main">
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
         <ImageView
-            android:layout_width="100dp"
-            android:layout_height="90dp"
+            android:layout_width="83dp"
+            android:layout_height="68dp"
             android:src="@drawable/ic_calculo"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="5dp"/>
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"/>
+
         <TextView
             android:id="@+id/textureView5"
-            android:layout_width="270dp"
-            android:layout_height="match_parent"
+            android:layout_width="250dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="120dp"
             android:background="@color/white"
-            android:layout_marginLeft="110dp"
-            android:text=" Calculo integral\n Gr. 51  Stu:30 "
             android:fontFamily="@string/app_name"
-            android:textSize="36dp"/>
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/black"
+            android:text="calculo multivariado\n Gr. 51   "
+            android:textSize="17dp"
+            android:backgroundTint="@color/almost_white"
+            android:textAlignment="center"/>
     </android.support.v7.widget.CardView>
 </RelativeLayout>
