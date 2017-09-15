@@ -35,7 +35,8 @@
         <activity
             android:name=".ProfileActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".StudentActivity"></activity>
+        <activity android:name=".StudentActivity" />
+        <activity android:name=".RegisterActivity"></activity>
     </application>
 
 </manifest>
