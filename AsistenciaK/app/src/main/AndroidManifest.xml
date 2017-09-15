@@ -37,7 +37,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".StudentActivity"
-           android:label="Estudiantes inscritos"></activity>
+            android:label="Estudiantes inscritos" />
+        <activity android:name=".MatterActivity"></activity>
     </application>
 
 </manifest>
