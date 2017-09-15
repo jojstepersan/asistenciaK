@@ -33,6 +33,13 @@
             android:label="@string/title_activity_panel"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".ProfileActivity" />
+<<<<<<< HEAD
+=======
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+>>>>>>> a60c40843b7f93bd2235331a6875142dd4cda263
     </application>
 
 </manifest>
