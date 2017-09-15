@@ -16,6 +16,20 @@
         android:layout_height="match_parent"
         android:layout_weight="1.5">
 
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp
+"
+
+            android:clickable="true"
+            android:tint="@color/almost_white"
+            app:elevation="14dp"
+            app:fabSize="normal"
+            app:srcCompat="@android:drawable/ic_menu_add" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -48,6 +62,7 @@
                         android:textAlignment="center"
                         android:textColor="@color/almost_white"
                         android:textSize="50sp" />
+
                 </FrameLayout>
             </FrameLayout>
 
@@ -90,6 +105,7 @@
                         android:layout_marginTop="16dp"
                         android:text="Estudiantes inscritos"
                         android:textSize="26sp" />
+
                 </LinearLayout>
 
                 <LinearLayout
