@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.jojstepersan.asistenciak.AssistanceActivity"
+    tools:showIn="@layout/activity_assistance">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.CardView
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_below="@+id/cardView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                >
+
+                <ImageView
+                    android:layout_width="83dp"
+                    android:layout_height="68dp"
+                    android:src="@drawable/ic_user"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginRight="16dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="120dp"
+                    android:fontFamily="@string/app_name"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="Jojhan Stiven Perdomo Sanchez"
+                    android:textSize="30dp"
+                    android:backgroundTint="@color/almost_white"
+                    android:textAlignment="center"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardBackgroundColor="@color/colorPrimary"
+                android:layout_below="@+id/cardView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                >
+
+                <ImageView
+                    android:layout_width="83dp"
+                    android:layout_height="68dp"
+                    android:src="@drawable/ic_user"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginRight="16dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="120dp"
+                    android:fontFamily="@string/app_name"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="Mario Andres Herrera Cabrejo  "
+                    android:textSize="30dp"
+                    android:backgroundTint="@color/almost_white"
+                    android:textAlignment="center"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardBackgroundColor="@color/colorPrimary"
+                android:layout_below="@+id/cardView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                >
+                <ImageView
+                    android:layout_width="83dp"
+                    android:layout_height="68dp"
+                    android:src="@drawable/ic_user"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginRight="16dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:textColor="@color/white"
+
+                    android:layout_marginLeft="120dp"
+                    android:fontFamily="@string/app_name"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="Laura Valentina Lindarte Celis "
+                    android:textSize="30dp"
+                    android:backgroundTint="@color/almost_white"
+                    android:textAlignment="center"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="16dp"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_below="@+id/cardView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                >
+                <ImageView
+                    android:layout_width="83dp"
+                    android:layout_height="68dp"
+                    android:src="@drawable/ic_user"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginRight="16dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:textColor="@color/white"
+
+                    android:layout_marginLeft="120dp"
+                    android:fontFamily="@string/app_name"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="Jorge Ivan Contreras"
+                    android:textSize="30dp"
+                    android:backgroundTint="@color/almost_white"
+                    android:textAlignment="center"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_below="@+id/cardView"
+                android:layout_alignParentLeft="true"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                android:layout_alignParentStart="true"
+                >
+                <ImageView
+                    android:layout_width="83dp"
+                    android:layout_height="68dp"
+                    android:src="@drawable/ic_user"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginRight="16dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:textColor="@color/white"
+
+                    android:layout_marginLeft="120dp"
+                    android:fontFamily="@string/app_name"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="Pepito armando perrez :v  "
+                    android:textSize="30dp"
+                    android:backgroundTint="@color/almost_white"
+                    android:textAlignment="center"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardBackgroundColor="@color/colorPrimary"
+                android:layout_below="@+id/cardView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                >
+                <ImageView
+                    android:layout_width="83dp"
+                    android:layout_height="68dp"
+                    android:src="@drawable/ic_user"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginRight="16dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:textColor="@color/white"
+
+                    android:layout_marginLeft="120dp"
+                    android:fontFamily="@string/app_name"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="Brenda Lisette Cano Varon"
+                    android:textSize="30dp"
+                    android:backgroundTint="@color/almost_white"
+                    android:textAlignment="center"/>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

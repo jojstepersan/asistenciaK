@@ -35,7 +35,13 @@
         <activity
             android:name=".ProfileActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".StudentActivity"></activity>
+        <activity android:name=".StudentActivity" />
+        <activity android:name=".MatterActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity
+            android:name=".AssistanceActivity"
+            android:label="@string/title_activity_assistance"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

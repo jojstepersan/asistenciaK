@@ -62,7 +62,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private EditText mPasswordView;
     private View mProgressView;
     private View mLoginFormView;
-    Button login;
+    Button login,register;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,6 +71,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
         // Set up the login form.
         login=(Button)findViewById(R.id.buttonLogin);
+        register = (Button)findViewById(R.id.buttonRegister);
         login.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -79,6 +80,14 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             }
         }
 
+        );
+        register.setOnClickListener(new OnClickListener() {
+                                        @Override
+                                        public void onClick(View view) {
+                                            Intent siguiente = new Intent(LoginActivity.this, RegisterActivity.class);
+                                            startActivity(siguiente);
+                                        }
+                                    }
         );
 
       //  mEmailView = (AutoCompleteTextView) findViewById(R.id.user);
