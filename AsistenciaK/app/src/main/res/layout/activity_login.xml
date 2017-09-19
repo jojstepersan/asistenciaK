@@ -67,16 +67,18 @@
             </android.support.design.widget.TextInputLayout>
             <Button
                 android:id="@+id/buttonLogin"
-                android:background="@color/blue_100"
+                android:background="@color/colorAccent"
                 android:text="LOGIN "
                 android:layout_gravity="center"
+                android:textColor="@color/white"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
             <Button
                 android:id="@+id/buttonRegister"
-                android:background="@color/blue_100"
+                android:background="@color/colorAccent"
+                android:textColor="@color/white"
                 android:text="REGISTER"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
