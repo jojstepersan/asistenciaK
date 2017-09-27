@@ -1,4 +1,4 @@
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context="com.example.jojstepersan.asistenciak.LoginActivity">
+    tools:context="com.example.jojstepersan.asistenciak.old.LoginActivity">
 
     <LinearLayout
         android:orientation="vertical"
@@ -89,7 +89,7 @@
     </LinearLayout>
 
 
-</RelativeLayout>
+</LinearLayout>
     <!-- Login progress -->
 
 

@@ -1,6 +1,5 @@
-package com.example.jojstepersan.asistenciak;
+package com.example.jojstepersan.asistenciak.old;
 
-import android.support.annotation.LayoutRes;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -8,6 +7,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import com.example.jojstepersan.asistenciak.R;
 
 public class ProfileActivity extends AppCompatActivity {
 
