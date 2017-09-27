@@ -1,10 +1,12 @@
-package com.example.jojstepersan.asistenciak;
+package com.example.jojstepersan.asistenciak.old;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import com.example.jojstepersan.asistenciak.R;
 
 public class RegisterActivity extends AppCompatActivity {
     Button login2;

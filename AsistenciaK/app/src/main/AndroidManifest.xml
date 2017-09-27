@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".LoginActivity"
+            android:name=".old.LoginActivity"
             android:label="Asistencias K"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -25,21 +25,21 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".PanelActivity"
+            android:name=".old.PanelActivity"
             android:label="@string/title_activity_panel"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ProfileActivity"
+            android:name=".old.ProfileActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".StudentActivity" />
-        <activity android:name=".MatterActivity" />
-        <activity android:name=".RegisterActivity" />
+        <activity android:name=".old.StudentActivity" />
+        <activity android:name=".old.MatterActivity" />
+        <activity android:name=".old.RegisterActivity" />
         <activity
-            android:name=".AssistanceActivity"
+            android:name=".old.AssistanceActivity"
             android:label="@string/title_activity_assistance"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>

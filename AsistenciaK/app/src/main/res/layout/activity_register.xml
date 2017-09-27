@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context="com.example.jojstepersan.asistenciak.RegisterActivity">
+    tools:context="com.example.jojstepersan.asistenciak.old.RegisterActivity">
 
     <LinearLayout
         android:orientation="vertical"

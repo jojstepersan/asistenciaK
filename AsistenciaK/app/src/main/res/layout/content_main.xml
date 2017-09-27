@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.jojstepersan.asistenciak.MainActivity"
+    tools:context="com.example.jojstepersan.asistenciak.activities.MainActivity"
     tools:showIn="@layout/activity_main">
 
     <ScrollView
