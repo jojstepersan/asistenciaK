@@ -9,6 +9,7 @@ public class Materia {
     private int id;
     private String name;
     private int group;
+    private Teacher teacher;
 
     public Materia(int id, String name, int group) {
         this.id = id;
