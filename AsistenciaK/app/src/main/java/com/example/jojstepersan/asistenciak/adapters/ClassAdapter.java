@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.jojstepersan.asistenciak.R;
-import com.example.jojstepersan.asistenciak.entities.Materia;
+import com.example.jojstepersan.asistenciak.entities.Class;
 
 import java.util.List;
 
@@ -17,9 +17,9 @@ import java.util.List;
  * Created by jojstepersan on 9/26/17.
  */
 
-public class MateriaAdapter extends ArrayAdapter<Materia>{
+public class ClassAdapter extends ArrayAdapter<Class>{
 
-    public MateriaAdapter(Context context, int resource, List<Materia> objects) {
+    public ClassAdapter(Context context, int resource, List<Class> objects) {
         super(context, resource, objects);
     }
 
@@ -33,7 +33,7 @@ public class MateriaAdapter extends ArrayAdapter<Materia>{
             currentView=vi.inflate(R.layout.list_materia_record_item,null);
             }
 
-        Materia currentItem=getItem(position);
+        Class currentItem=getItem(position);
 
         ImageView icon=(ImageView)currentView.findViewById(R.id.list_materia_image);
         TextView name=(TextView)currentView.findViewById(R.id.list_materia_name);

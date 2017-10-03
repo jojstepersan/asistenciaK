@@ -28,6 +28,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.example.jojstepersan.asistenciak.R;
+import com.example.jojstepersan.asistenciak.activities.MainActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -74,8 +75,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         login.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-              Intent siguiente = new Intent(LoginActivity.this, MainActivity.class);
-                startActivity(siguiente);
+        Intent siguiente = new Intent(LoginActivity.this, MainActivity.class);
+        startActivity(siguiente);
             }
         }
 

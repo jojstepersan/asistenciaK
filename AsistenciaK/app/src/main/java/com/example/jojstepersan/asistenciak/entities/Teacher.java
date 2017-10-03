@@ -1,5 +1,6 @@
 package com.example.jojstepersan.asistenciak.entities;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -11,22 +12,22 @@ public class Teacher {
     private String lastName;
     private int id;
     private String email;
-    private List<Materia> materias;
+    private List<Class> classes;
 
     public Teacher(String name, String lastName, int id, String email) {
         this.name = name;
         this.lastName = lastName;
         this.id = id;
-
         this.email = email;
+        classes =new ArrayList<>();
     }
 
-    public List<Materia> getMaterias() {
-        return materias;
+    public List<Class> getClasses() {
+        return classes;
     }
 
-    public void setMaterias(List<Materia> materias) {
-        this.materias = materias;
+    public void setClasses(List<Class> classes) {
+        this.classes = classes;
     }
 
     public String getName() {

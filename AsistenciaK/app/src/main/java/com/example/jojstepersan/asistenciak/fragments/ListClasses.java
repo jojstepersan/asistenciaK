@@ -10,11 +10,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import com.example.jojstepersan.asistenciak.R;
-import com.example.jojstepersan.asistenciak.adapters.MateriaAdapter;
-import com.example.jojstepersan.asistenciak.entities.Materia;
+import com.example.jojstepersan.asistenciak.adapters.ClassAdapter;
+import com.example.jojstepersan.asistenciak.entities.Class;
 
 import java.util.ArrayList;
 
@@ -75,13 +74,13 @@ public class ListClasses extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.activity_main,container);
 
-        ArrayList<Materia> materias=new ArrayList<>();
+        ArrayList<Class> materias=new ArrayList<>();
 
-        Materia m1=new Materia(2020,"calculo integral",1);
-        Materia m2=new Materia(2021,"Calculo diferencial",51);
-        Materia m3=new Materia(3031,"Construccion de aplicaciones",51);
-        Materia m4=new Materia(3030,"Ingenieria de softwqare",1);
-        Materia m5=new Materia(1015,"cultura iii",5);
+        Class m1=new Class(2020,"calculo integral",1);
+        Class m2=new Class(2021,"Calculo diferencial",51);
+        Class m3=new Class(3031,"Construccion de aplicaciones",51);
+        Class m4=new Class(3030,"Ingenieria de softwqare",1);
+        Class m5=new Class(1015,"cultura iii",5);
 
         materias.add(m1);
         materias.add(m2);
@@ -93,7 +92,7 @@ public class ListClasses extends Fragment {
 
         ListView mateariasView=(ListView) view.findViewById(R.id.list_materia);
 
-        MateriaAdapter materiaAdapter=new MateriaAdapter(getContext(),R.layout.list_materia_record_item,materias);
+        ClassAdapter materiaAdapter=new ClassAdapter(getContext(),R.layout.list_materia_record_item,materias);
 
         mateariasView.setAdapter(materiaAdapter);
 
