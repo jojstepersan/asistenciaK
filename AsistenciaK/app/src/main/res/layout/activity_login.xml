@@ -1,4 +1,4 @@
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context="com.example.jojstepersan.asistenciak.LoginActivity">
+    tools:context="com.example.jojstepersan.asistenciak.old.LoginActivity">
 
     <LinearLayout
         android:orientation="vertical"
@@ -70,6 +70,17 @@
                 android:background="@color/colorAccent"
                 android:text="LOGIN "
                 android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/buttonRegister"
+                android:background="@color/colorAccent"
+                android:textColor="@color/white"
+                android:text="REGISTER"
+                android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -78,7 +89,7 @@
     </LinearLayout>
 
 
-</RelativeLayout>
+</LinearLayout>
     <!-- Login progress -->
 
 
