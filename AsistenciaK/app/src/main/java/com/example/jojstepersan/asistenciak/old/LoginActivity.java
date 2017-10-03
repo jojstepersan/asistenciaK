@@ -74,7 +74,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         login.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-              Intent siguiente = new Intent(LoginActivity.this, PanelActivity.class);
+              Intent siguiente = new Intent(LoginActivity.this, MainActivity.class);
                 startActivity(siguiente);
             }
         }
