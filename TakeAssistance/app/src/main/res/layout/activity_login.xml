@@ -39,11 +39,11 @@
                 android:layout_height="wrap_content">
 
                 <EditText
-                    android:id="@+id/user"
+                    android:id="@+id/userEmail"
                     android:drawableLeft="@drawable/ic_person_black_24dp"
                     android:layout_marginTop="80dp"
                     android:layout_gravity="center"
-                    android:hint="User Name"
+                    android:hint="Email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
             </android.support.design.widget.TextInputLayout>
@@ -71,7 +71,8 @@
                 android:textColor="@color/white"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:onClick="userLogin"/>
 
 
 
