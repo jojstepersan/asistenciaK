@@ -10,16 +10,12 @@ import android.view.MenuItem;
 import android.widget.TextView;
 
 import com.example.jojstepersan.asistenciak.R;
-import com.example.jojstepersan.asistenciak.adapters.ClassAdapter;
-import com.example.jojstepersan.asistenciak.adapters.SectionClassesAdapter;
-import com.example.jojstepersan.asistenciak.fragments.HomeFragment;
 import com.example.jojstepersan.asistenciak.fragments.ListClasses;
 import com.example.jojstepersan.asistenciak.fragments.ListStudents;
 
 public class MainActivity extends AppCompatActivity {
 
     private TextView mTextMessage;
-    private SectionClassesAdapter sectionClassesAdapter;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {

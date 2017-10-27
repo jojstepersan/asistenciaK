@@ -72,7 +72,7 @@ public class ListClasses extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_classes,container);
+        View view = inflater.inflate(R.layout.fragment_classes,container,false);
 
         ArrayList<Class> materias=new ArrayList<>();
 
@@ -88,7 +88,6 @@ public class ListClasses extends Fragment {
         materias.add(m4);
         materias.add(m5);
 
-        Log.d("Stiven","tamaño" + materias.size());
 
         ListView mateariasView=(ListView) view.findViewById(R.id.list_classes);
 
