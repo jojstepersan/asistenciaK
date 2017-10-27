@@ -1,5 +1,6 @@
 package co.edu.konradlorenz.takeassistance.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -34,7 +35,9 @@ public class MainActivity extends AppCompatActivity {
                  //   mTextMessage.setText(R.string.title_dashboard);
                     return true;
                 case R.id.navigation_notifications:
-                    mTextMessage.setText(R.string.title_notifications);
+                    Intent siguiente = new Intent(MainActivity.this, ProfileActivity.class);
+                    startActivity(siguiente);
+                //    mTextMessage.setText(R.string.title_notifications);
                     return true;
             }
             return false;
