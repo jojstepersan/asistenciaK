@@ -4,6 +4,7 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,20 +13,19 @@ import android.widget.ListView;
 
 import com.example.jojstepersan.asistenciak.R;
 import com.example.jojstepersan.asistenciak.adapters.ClassAdapter;
-import com.example.jojstepersan.asistenciak.adapters.StudentAdapter;
-import com.example.jojstepersan.asistenciak.entities.Student;
+import com.example.jojstepersan.asistenciak.entities.Class;
 
 import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link ListStudents.OnFragmentInteractionListener} interface
+ * {@link HomeFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link ListStudents#newInstance} factory method to
+ * Use the {@link HomeFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class ListStudents extends Fragment {
+public class HomeFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -37,7 +37,7 @@ public class ListStudents extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public ListStudents() {
+    public HomeFragment() {
         // Required empty public constructor
     }
 
@@ -47,11 +47,11 @@ public class ListStudents extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment ListStudents.
+     * @return A new instance of fragment HomeFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static ListStudents newInstance(String param1, String param2) {
-        ListStudents fragment = new ListStudents();
+    public static HomeFragment newInstance(String param1, String param2) {
+        HomeFragment fragment = new HomeFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -68,34 +68,35 @@ public class ListStudents extends Fragment {
         }
     }
 
+    //create fragments
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.activity_main,container);
+        View view = inflater.inflate(R.layout.fragment_classes,container);
 
-        ArrayList<Student> estudiantes=new ArrayList<>();
+        ArrayList<Class> materias=new ArrayList<>();
 
-        Student s1=new Student("Mario",506151084,"Sistemas","Herrera");
-        Student s2=new Student("Stiven",506151085,"Sistemas","Perdomo");
-        Student s3=new Student("Valentina",506151086,"Sistemas","Lindarte");
-        Student s4=new Student("Jimbo",506151087,"Sistemas","Buitrago");
+        Class m1=new Class(2020,"calculo integral",1);
+        Class m2=new Class(2021,"Calculo diferencial",51);
+        Class m3=new Class(3031,"Construccion de aplicaciones",51);
+        Class m4=new Class(3030,"Ingenieria de softwqare",1);
+        Class m5=new Class(1015,"cultura iii",5);
 
+        materias.add(m1);
+        materias.add(m2);
+        materias.add(m3);
+        materias.add(m4);
+        materias.add(m5);
 
-        estudiantes.add(s1);
-       estudiantes.add(s2);
-        estudiantes.add(s3);
-        estudiantes.add(s4);
+        Log.d("Stiven","tamaño" + materias.size());
 
+        ListView mateariasView=(ListView) view.findViewById(R.id.list_materia);
 
+        ClassAdapter materiaAdapter=new ClassAdapter(getContext(),R.layout.list_materia_record_item,materias);
 
+        mateariasView.setAdapter(materiaAdapter);
 
-        ListView estudiantesView =(ListView) view.findViewById(R.id.list_materia);
-
-        StudentAdapter studentAdapter=new StudentAdapter(getContext(),R.layout.list_materia_record_item,estudiantes);
-
-        estudiantesView.setAdapter(studentAdapter);
-
-        estudiantesView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        mateariasView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
@@ -103,15 +104,8 @@ public class ListStudents extends Fragment {
         });
 
         return view;
-
-
-
-
-
-
-
-
     }
+
 
     // TODO: Rename method, update argument and hook method into UI event
     public void onButtonPressed(Uri uri) {
@@ -126,8 +120,8 @@ public class ListStudents extends Fragment {
         if (context instanceof OnFragmentInteractionListener) {
             mListener = (OnFragmentInteractionListener) context;
         } else {
-            //throw new RuntimeException(context.toString()
-              //      + " must implement OnFragmentInteractionListener");
+            throw new RuntimeException(context.toString()
+                    + " must implement OnFragmentInteractionListener");
         }
     }
 

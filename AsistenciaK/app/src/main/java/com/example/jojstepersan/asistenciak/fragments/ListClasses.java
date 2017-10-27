@@ -72,7 +72,7 @@ public class ListClasses extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.activity_main,container);
+        View view = inflater.inflate(R.layout.fragment_classes,container);
 
         ArrayList<Class> materias=new ArrayList<>();
 
@@ -90,11 +90,15 @@ public class ListClasses extends Fragment {
 
         Log.d("Stiven","tamaño" + materias.size());
 
-        ListView mateariasView=(ListView) view.findViewById(R.id.list_materia);
+        ListView mateariasView=(ListView) view.findViewById(R.id.list_classes);
 
         ClassAdapter materiaAdapter=new ClassAdapter(getContext(),R.layout.list_materia_record_item,materias);
+        if(materiaAdapter==null)
+            Log.d("tag1","materia adapter es null");
 
         mateariasView.setAdapter(materiaAdapter);
+        if(mateariasView==null)
+            Log.d("tag2","materia view es null");
 
         mateariasView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -119,8 +123,8 @@ public class ListClasses extends Fragment {
         if (context instanceof OnFragmentInteractionListener) {
             mListener = (OnFragmentInteractionListener) context;
         } else {
-            throw new RuntimeException(context.toString()
-                    + " must implement OnFragmentInteractionListener");
+     //       throw new RuntimeException(context.toString()
+       //             + " must implement OnFragmentInteractionListener");
         }
     }
 

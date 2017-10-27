@@ -1,6 +1,7 @@
 package com.example.jojstepersan.asistenciak.adapters;
 
 import android.content.Context;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,9 +20,11 @@ import java.util.List;
 
 public class ClassAdapter extends ArrayAdapter<Class>{
 
+
     public ClassAdapter(Context context, int resource, List<Class> objects) {
         super(context, resource, objects);
     }
+
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent)
