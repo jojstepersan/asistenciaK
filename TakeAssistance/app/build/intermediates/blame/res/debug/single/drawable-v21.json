@@ -1,35 +1,7 @@
 [
     {
-        "merged": "C:\\home\\jojstepersan\\Desktop\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
-        "source": "C:\\home\\jojstepersan\\.android\\build-cache\\7d7d18f3ff950fc911ef40ab77f177beac220f73\\output\\res\\drawable-v21\\notification_action_background.xml"
-    },
-    {
         "merged": "C:\\Users\\LauraValentina\\Documents\\asistenciaK\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
         "source": "C:\\Users\\LauraValentina\\.android\\build-cache\\fc023947f0e450f7904679bcf6d944caa7250845\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
-    },
-    {
-        "merged": "C:\\home\\jojstepersan\\Desktop\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
-        "source": "C:\\home\\jojstepersan\\.android\\build-cache\\553e60e25b8edaa883aa3db1d4b8ef46032c21de\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
-    },
-    {
-        "merged": "C:\\home\\jojstepersan\\Desktop\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
-        "source": "C:\\home\\jojstepersan\\.android\\build-cache\\553e60e25b8edaa883aa3db1d4b8ef46032c21de\\output\\res\\drawable-v21\\design_password_eye.xml"
-    },
-    {
-        "merged": "C:\\home\\jojstepersan\\Desktop\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
-        "source": "C:\\home\\jojstepersan\\.android\\build-cache\\553e60e25b8edaa883aa3db1d4b8ef46032c21de\\output\\res\\drawable-v21\\avd_hide_password.xml"
-    },
-    {
-        "merged": "C:\\Users\\LauraValentina\\Documents\\asistenciaK\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\LauraValentina\\.android\\build-cache\\fc023947f0e450f7904679bcf6d944caa7250845\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\LauraValentina\\Documents\\asistenciaK\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
-        "source": "C:\\Users\\LauraValentina\\.android\\build-cache\\8d5191ae4b9ab19774955d715db12b716cfa2aef\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\LauraValentina\\Documents\\asistenciaK\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
-        "source": "C:\\Users\\LauraValentina\\.android\\build-cache\\8d5191ae4b9ab19774955d715db12b716cfa2aef\\output\\res\\drawable-v21\\design_password_eye.xml"
     },
     {
         "merged": "C:\\home\\jojstepersan\\Desktop\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
@@ -40,24 +12,52 @@
         "source": "C:\\home\\jojstepersan\\.android\\build-cache\\553e60e25b8edaa883aa3db1d4b8ef46032c21de\\output\\res\\drawable-v21\\avd_show_password.xml"
     },
     {
-        "merged": "C:\\Users\\LauraValentina\\Documents\\asistenciaK\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
-        "source": "C:\\Users\\LauraValentina\\.android\\build-cache\\8d5191ae4b9ab19774955d715db12b716cfa2aef\\output\\res\\drawable-v21\\avd_show_password.xml"
+        "merged": "C:\\home\\jojstepersan\\Desktop\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\home\\jojstepersan\\.android\\build-cache\\553e60e25b8edaa883aa3db1d4b8ef46032c21de\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
     },
     {
-        "merged": "C:\\Users\\LauraValentina\\Documents\\asistenciaK\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\LauraValentina\\.android\\build-cache\\fc023947f0e450f7904679bcf6d944caa7250845\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+        "merged": "C:\\Users\\LauraValentina\\Documents\\asistenciaK\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\LauraValentina\\.android\\build-cache\\fc023947f0e450f7904679bcf6d944caa7250845\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\LauraValentina\\Documents\\asistenciaK\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\LauraValentina\\.android\\build-cache\\8d5191ae4b9ab19774955d715db12b716cfa2aef\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
     },
     {
         "merged": "C:\\home\\jojstepersan\\Desktop\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
         "source": "C:\\home\\jojstepersan\\.android\\build-cache\\7d7d18f3ff950fc911ef40ab77f177beac220f73\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
-        "merged": "C:\\home\\jojstepersan\\Desktop\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "C:\\home\\jojstepersan\\.android\\build-cache\\7d7d18f3ff950fc911ef40ab77f177beac220f73\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+        "merged": "C:\\Users\\LauraValentina\\Documents\\asistenciaK\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
+        "source": "C:\\Users\\LauraValentina\\.android\\build-cache\\8d5191ae4b9ab19774955d715db12b716cfa2aef\\output\\res\\drawable-v21\\design_password_eye.xml"
+    },
+    {
+        "merged": "C:\\Users\\LauraValentina\\Documents\\asistenciaK\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
+        "source": "C:\\Users\\LauraValentina\\.android\\build-cache\\8d5191ae4b9ab19774955d715db12b716cfa2aef\\output\\res\\drawable-v21\\avd_show_password.xml"
+    },
+    {
+        "merged": "C:\\home\\jojstepersan\\Desktop\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
+        "source": "C:\\home\\jojstepersan\\.android\\build-cache\\553e60e25b8edaa883aa3db1d4b8ef46032c21de\\output\\res\\drawable-v21\\design_password_eye.xml"
+    },
+    {
+        "merged": "C:\\home\\jojstepersan\\Desktop\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
+        "source": "C:\\home\\jojstepersan\\.android\\build-cache\\553e60e25b8edaa883aa3db1d4b8ef46032c21de\\output\\res\\drawable-v21\\avd_hide_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\LauraValentina\\Documents\\asistenciaK\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\LauraValentina\\.android\\build-cache\\fc023947f0e450f7904679bcf6d944caa7250845\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
         "merged": "C:\\Users\\LauraValentina\\Documents\\asistenciaK\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
         "source": "C:\\Users\\LauraValentina\\.android\\build-cache\\fc023947f0e450f7904679bcf6d944caa7250845\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\home\\jojstepersan\\Desktop\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\home\\jojstepersan\\.android\\build-cache\\7d7d18f3ff950fc911ef40ab77f177beac220f73\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "C:\\home\\jojstepersan\\Desktop\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\home\\jojstepersan\\.android\\build-cache\\7d7d18f3ff950fc911ef40ab77f177beac220f73\\output\\res\\drawable-v21\\notification_action_background.xml"
     },
     {
         "merged": "C:\\Users\\LauraValentina\\Documents\\asistenciaK\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",

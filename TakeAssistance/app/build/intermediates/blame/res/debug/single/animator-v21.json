@@ -1,10 +1,10 @@
 [
     {
-        "merged": "C:\\home\\jojstepersan\\Desktop\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
-        "source": "C:\\home\\jojstepersan\\.android\\build-cache\\553e60e25b8edaa883aa3db1d4b8ef46032c21de\\output\\res\\animator-v21\\design_appbar_state_list_animator.xml"
-    },
-    {
         "merged": "C:\\Users\\LauraValentina\\Documents\\asistenciaK\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
         "source": "C:\\Users\\LauraValentina\\.android\\build-cache\\8d5191ae4b9ab19774955d715db12b716cfa2aef\\output\\res\\animator-v21\\design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "C:\\home\\jojstepersan\\Desktop\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
+        "source": "C:\\home\\jojstepersan\\.android\\build-cache\\553e60e25b8edaa883aa3db1d4b8ef46032c21de\\output\\res\\animator-v21\\design_appbar_state_list_animator.xml"
     }
 ]

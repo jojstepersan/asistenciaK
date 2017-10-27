@@ -1,11 +1,15 @@
 [
     {
-        "merged": "C:\\home\\jojstepersan\\Desktop\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "C:\\home\\jojstepersan\\.android\\build-cache\\7d7d18f3ff950fc911ef40ab77f177beac220f73\\output\\res\\layout-v21\\notification_action.xml"
+        "merged": "C:\\home\\jojstepersan\\Desktop\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\home\\jojstepersan\\.android\\build-cache\\7d7d18f3ff950fc911ef40ab77f177beac220f73\\output\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
         "merged": "C:\\home\\jojstepersan\\Desktop\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
         "source": "C:\\home\\jojstepersan\\.android\\build-cache\\7d7d18f3ff950fc911ef40ab77f177beac220f73\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\home\\jojstepersan\\Desktop\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\home\\jojstepersan\\.android\\build-cache\\7d7d18f3ff950fc911ef40ab77f177beac220f73\\output\\res\\layout-v21\\notification_action.xml"
     },
     {
         "merged": "C:\\home\\jojstepersan\\Desktop\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
@@ -26,9 +30,5 @@
     {
         "merged": "C:\\Users\\LauraValentina\\Documents\\asistenciaK\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
         "source": "C:\\Users\\LauraValentina\\.android\\build-cache\\fc023947f0e450f7904679bcf6d944caa7250845\\output\\res\\layout-v21\\notification_template_icon_group.xml"
-    },
-    {
-        "merged": "C:\\home\\jojstepersan\\Desktop\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "C:\\home\\jojstepersan\\.android\\build-cache\\7d7d18f3ff950fc911ef40ab77f177beac220f73\\output\\res\\layout-v21\\notification_template_custom_big.xml"
     }
 ]
