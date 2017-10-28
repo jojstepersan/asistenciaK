@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "437089100362-9f4ea0nok4lktth7m3g53ag65trddb68.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.edu.konradlorenz.takeassistance",
+            "certificate_hash": "26ddcdde643a1edf84b5871795cd37a017affb52"
+          }
+        },
+        {
           "client_id": "437089100362-be9k7p2k5d6gr3phbk9h1i42kl0opqaq.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

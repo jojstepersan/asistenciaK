@@ -1,10 +1,6 @@
 [
     {
-        "merged": "C:\\Users\\LauraValentina\\Documents\\asistenciaK\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\menu\\navigation.xml",
-        "source": "C:\\Users\\LauraValentina\\Documents\\asistenciaK\\TakeAssistance\\app\\src\\main\\res\\menu\\navigation.xml"
-    },
-    {
-        "merged": "C:\\home\\jojstepersan\\Desktop\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\menu\\navigation.xml",
-        "source": "C:\\home\\jojstepersan\\Desktop\\TakeAssistance\\app\\src\\main\\res\\menu\\navigation.xml"
+        "merged": "/Users/ingenieria/Desktop/Trabajo/TakeAssistance/app/build/intermediates/res/merged/debug/menu/navigation.xml",
+        "source": "/Users/ingenieria/Desktop/Trabajo/TakeAssistance/app/src/main/res/menu/navigation.xml"
     }
 ]
