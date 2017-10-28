@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "437089100362",
+    "firebase_url": "https://takeassistance.firebaseio.com",
+    "project_id": "takeassistance",
+    "storage_bucket": "takeassistance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437089100362:android:bfd50d1b5f3f3bd7",
+        "android_client_info": {
+          "package_name": "co.edu.konradlorenz.takeassistance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437089100362-be9k7p2k5d6gr3phbk9h1i42kl0opqaq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.edu.konradlorenz.takeassistance",
+            "certificate_hash": "34d8750965a28c99c3de2bf6d13ffd4bc3e0e681"
+          }
+        },
+        {
+          "client_id": "437089100362-odcb0jvislhojom9h1l1n7k9vu4tpjc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsOw4CKr5O4qc_lEOkSSg5AmZQM0z2Ozw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437089100362-odcb0jvislhojom9h1l1n7k9vu4tpjc4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

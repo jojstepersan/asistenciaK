@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/jojstepersan/Desktop/TakeAssistance/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "outputFile": "C:\\Users\\LauraValentina\\Documents\\asistenciaK\\TakeAssistance\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,31 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/home/jojstepersan/.android/build-cache/6d77a2de57d1e66ac4fbec9a8a42b27aba625bcb/output/res/values/values.xml",
+                    "file": "C:\\Users\\LauraValentina\\.android\\build-cache\\59b40bd9b034059010a4febc7fb68e7c9324cc64\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\home\\jojstepersan\\Desktop\\TakeAssistance\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "C:\\home\\jojstepersan\\.android\\build-cache\\6d77a2de57d1e66ac4fbec9a8a42b27aba625bcb\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

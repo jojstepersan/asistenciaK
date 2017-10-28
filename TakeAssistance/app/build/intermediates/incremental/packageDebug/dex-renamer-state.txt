@@ -1,7 +1,4 @@
-#Fri Oct 27 00:22:12 COT 2017
-base.0=/home/jojstepersan/Desktop/TakeAssistance/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_a18c62b23e7f05e4f88d5a50b5679d31c9d5baf2
-renamed.1=classes2.dex
+#Fri Oct 27 13:40:10 COT 2017
+base.0=C\:\\Users\\LauraValentina\\Documents\\asistenciaK\\TakeAssistance\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
-file.1=/home/jojstepersan/Desktop/TakeAssistance/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_737a73db7ecbae90c4c2a4ab37da1c850546faf6/classes.dex
-base.1=/home/jojstepersan/Desktop/TakeAssistance/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_737a73db7ecbae90c4c2a4ab37da1c850546faf6
-file.0=/home/jojstepersan/Desktop/TakeAssistance/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_a18c62b23e7f05e4f88d5a50b5679d31c9d5baf2/classes.dex
+file.0=C\:\\Users\\LauraValentina\\Documents\\asistenciaK\\TakeAssistance\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

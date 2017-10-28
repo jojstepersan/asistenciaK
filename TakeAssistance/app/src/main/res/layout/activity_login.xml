@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            android:background="@color/colorPrimary">
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ninja"
+                android:layout_gravity="center"
+                android:layout_width="125dp"
+                android:layout_height="125dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Ninja Konrad"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_margin="16dp"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/userEmail"
+                    android:drawableLeft="@drawable/ic_person_black_24dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_gravity="center"
+                    android:hint="Email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/password"
+                    android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </android.support.design.widget.TextInputLayout>
+            <Button
+                android:id="@+id/buttonLogin"
+                android:background="@color/colorAccent"
+                android:text="LOGIN "
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="userLogin"/>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
