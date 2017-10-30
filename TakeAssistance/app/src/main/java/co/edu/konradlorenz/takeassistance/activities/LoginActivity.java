@@ -32,7 +32,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void userLogin(String userEmail, String pass) {
-      
+
 
     }
 }
