@@ -1,18 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\LauraValentina\\Documents\\asistenciaK\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\Users\\LauraValentina\\.android\\build-cache\\8d5191ae4b9ab19774955d715db12b716cfa2aef\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/home/jojstepersan/.android/build-cache/553e60e25b8edaa883aa3db1d4b8ef46032c21de/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "C:\\home\\jojstepersan\\Desktop\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\home\\jojstepersan\\.android\\build-cache\\553e60e25b8edaa883aa3db1d4b8ef46032c21de\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
-    },
-    {
-        "merged": "C:\\home\\jojstepersan\\Desktop\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
-        "source": "C:\\home\\jojstepersan\\.android\\build-cache\\553e60e25b8edaa883aa3db1d4b8ef46032c21de\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
-    },
-    {
-        "merged": "C:\\Users\\LauraValentina\\Documents\\asistenciaK\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
-        "source": "C:\\Users\\LauraValentina\\.android\\build-cache\\8d5191ae4b9ab19774955d715db12b716cfa2aef\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/home/jojstepersan/.android/build-cache/553e60e25b8edaa883aa3db1d4b8ef46032c21de/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
     }
 ]
