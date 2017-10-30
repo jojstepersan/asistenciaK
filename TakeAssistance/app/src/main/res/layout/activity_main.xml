@@ -9,10 +9,10 @@
     tools:context="co.edu.konradlorenz.takeassistance.activities.MainActivity">
 
     <FrameLayout
+        android:id="@+id/fragmento_activity_main"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:layout_width="match_parent"
-        android:id="@+id/fragmento_activity_main"
         tools:layout="@layout/fragment_list_classes">
 
     </FrameLayout>
