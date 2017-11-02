@@ -1,6 +1,7 @@
 package co.edu.konradlorenz.takeassistance.activities;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -28,8 +29,6 @@ public class LoginActivity extends MainActivity implements View.OnClickListener 
 
     private static final String TAG = "EmailPassword";
 
-    private TextView mStatusTextView;
-    private TextView mDetailTextView;
     private EditText mEmailField;
     private EditText mPasswordField;
 
@@ -43,8 +42,8 @@ public class LoginActivity extends MainActivity implements View.OnClickListener 
         setContentView(R.layout.activity_login);
 
         // Views
-        mStatusTextView = (TextView) findViewById(R.id.status);
-        mDetailTextView = (TextView) findViewById(R.id.detail);
+        // mStatusTextView = (TextView) findViewById(R.id.status);
+        // mDetailTextView = (TextView) findViewById(R.id.detail);
         mEmailField = (EditText) findViewById(R.id.field_email);
         mPasswordField = (EditText) findViewById(R.id.field_password);
 
@@ -75,7 +74,7 @@ public class LoginActivity extends MainActivity implements View.OnClickListener 
             return;
         }
 
-        showProgressDialog();
+        //      showProgressDialog();
 
         // [START create_user_with_email]
         mAuth.createUserWithEmailAndPassword(email, password)
@@ -96,7 +95,7 @@ public class LoginActivity extends MainActivity implements View.OnClickListener 
                         }
 
                         // [START_EXCLUDE]
-                        hideProgressDialog();
+//                        hideProgressDialog();
                         // [END_EXCLUDE]
                     }
                 });
@@ -109,7 +108,7 @@ public class LoginActivity extends MainActivity implements View.OnClickListener 
             return;
         }
 
-        showProgressDialog();
+        //    showProgressDialog();
 
         // [START sign_in_with_email]
         mAuth.signInWithEmailAndPassword(email, password)
@@ -120,7 +119,10 @@ public class LoginActivity extends MainActivity implements View.OnClickListener 
                             // Sign in success, update UI with the signed-in user's information
                             Log.d(TAG, "signInWithEmail:success");
                             FirebaseUser user = mAuth.getCurrentUser();
-                            updateUI(user);
+                            // updateUI(user);
+                            Intent intent = new Intent(LoginActivity.this,MainActivity.class);
+                            startActivity(intent);
+
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w(TAG, "signInWithEmail:failure", task.getException());
@@ -131,9 +133,9 @@ public class LoginActivity extends MainActivity implements View.OnClickListener 
 
                         // [START_EXCLUDE]
                         if (!task.isSuccessful()) {
-                            mStatusTextView.setText(R.string.auth_failed);
+                            //                   mStatusTextView.setText(R.string.auth_failed);
                         }
-                        hideProgressDialog();
+                        //                      hideProgressDialog();
                         // [END_EXCLUDE]
                     }
                 });
@@ -199,23 +201,20 @@ public class LoginActivity extends MainActivity implements View.OnClickListener 
     }
 
     private void updateUI(FirebaseUser user) {
-        hideProgressDialog();
+//        hideProgressDialog();
         if (user != null) {
-            mStatusTextView.setText(getString(R.string.emailpassword_status_fmt,
-                    user.getEmail(), user.isEmailVerified()));
-            mDetailTextView.setText(getString(R.string.firebase_status_fmt, user.getUid()));
+            // mStatusTextView.setText(getString(R.string.emailpassword_status_fmt,
+            //user.getEmail(), user.isEmailVerified()));
+            //mDetailTextView.setText(getString(R.string.firebase_status_fmt, user.getUid()));
 
-            findViewById(R.id.email_password_buttons).setVisibility(View.GONE);
-            findViewById(R.id.email_password_fields).setVisibility(View.GONE);
             findViewById(R.id.signed_in_buttons).setVisibility(View.VISIBLE);
 
             findViewById(R.id.verify_email_button).setEnabled(!user.isEmailVerified());
         } else {
-            mStatusTextView.setText(R.string.signed_out);
-            mDetailTextView.setText(null);
+            // mStatusTextView.setText(R.string.signed_out);
+            // mDetailTextView.setText(null);
 
-            findViewById(R.id.email_password_buttons).setVisibility(View.VISIBLE);
-            findViewById(R.id.email_password_fields).setVisibility(View.VISIBLE);
+
             findViewById(R.id.signed_in_buttons).setVisibility(View.GONE);
         }
     }
@@ -227,14 +226,14 @@ public class LoginActivity extends MainActivity implements View.OnClickListener 
             createAccount(mEmailField.getText().toString(), mPasswordField.getText().toString());
         } else if (i == R.id.email_sign_in_button) {
             signIn(mEmailField.getText().toString(), mPasswordField.getText().toString());
+
+
         } else if (i == R.id.sign_out_button) {
             signOut();
         } else if (i == R.id.verify_email_button) {
             sendEmailVerification();
         }
     }
-
-
-
 }
+
 
