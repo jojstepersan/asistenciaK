@@ -96,6 +96,7 @@ public class ListClassesFragment extends Fragment {
         DatabaseReference database=FirebaseDatabase.getInstance().getReference();
         final ArrayList<Class> materias=new ArrayList<>();
         DatabaseReference ref=database.child("user/teacher/");
+        DatabaseReference ref2=database.child("user/teacher/").child("classes").child("students").child("assistances");
         ListView materiasView=(ListView)view.findViewById(R.id.list_classes);
         final ClassAdapter classAdapter=new ClassAdapter(getContext(),R.layout.list_materia_record_item,materias);
 
@@ -104,7 +105,7 @@ public class ListClassesFragment extends Fragment {
         //DatabaseReference post=ref.child("");
         //post.push().setValue(new Teacher("diego","vivas",102030,"diego.vivas@conradlorenz.edu.co"));
 
-
+      
 
         ref.addChildEventListener(new ChildEventListener() {
             @Override

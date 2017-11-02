@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Nov 02 11:24:53 COT 2017
+#Thu Nov 02 13:23:49 COT 2017
 210.set=ANDROID_RESOURCE
 282.file=C\:\\Users\\LauraValentina\\Music\\android\\TakeAssistance\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\notification_tile_bg.xml
 14.set=ANDROID_RESOURCE

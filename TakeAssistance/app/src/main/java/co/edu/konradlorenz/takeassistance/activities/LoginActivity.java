@@ -120,7 +120,7 @@ public class LoginActivity extends MainActivity implements View.OnClickListener 
                             // Sign in success, update UI with the signed-in user's information
                             Log.d(TAG, "signInWithEmail:success");
                             FirebaseUser user = mAuth.getCurrentUser();
-                            // updateUI(user);
+                            updateUI(user);
                             Intent intent = new Intent(LoginActivity.this,MainActivity.class);
                             startActivity(intent);
 
@@ -143,9 +143,11 @@ public class LoginActivity extends MainActivity implements View.OnClickListener 
         // [END sign_in_with_email]
     }
 
-    private void signOut() {
+    public void signOut() {
         mAuth.signOut();
         updateUI(null);
+
+
     }
 
     private void sendEmailVerification() {
@@ -208,7 +210,7 @@ public class LoginActivity extends MainActivity implements View.OnClickListener 
             //user.getEmail(), user.isEmailVerified()));
             //mDetailTextView.setText(getString(R.string.firebase_status_fmt, user.getUid()));
 
-            findViewById(R.id.signed_in_buttons).setVisibility(View.VISIBLE);
+            findViewById(R.id.sign_out_button).setVisibility(View.VISIBLE);
 
             findViewById(R.id.verify_email_button).setEnabled(!user.isEmailVerified());
         } else {
