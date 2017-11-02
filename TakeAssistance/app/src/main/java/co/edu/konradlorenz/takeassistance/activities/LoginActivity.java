@@ -20,7 +20,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 import co.edu.konradlorenz.takeassistance.R;
 
-public class LoginActivity extends BaseActivity implements View.OnClickListener {
+public class LoginActivity extends MainActivity implements View.OnClickListener {
 
     private Button buttonLogin;
     private EditText editTextUser;
