@@ -4,17 +4,33 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
+
+import com.google.firebase.database.ChildEventListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
+import java.util.Date;
+import java.util.Objects;
 
 import co.edu.konradlorenz.takeassistance.R;
 import co.edu.konradlorenz.takeassistance.adapters.ClassAdapter;
+import co.edu.konradlorenz.takeassistance.entities.Assistance;
 import co.edu.konradlorenz.takeassistance.entities.Class;
+import co.edu.konradlorenz.takeassistance.entities.Student;
+import co.edu.konradlorenz.takeassistance.entities.Teacher;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -33,6 +49,10 @@ public class ListClassesFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+
+    private ArrayList<String > arrayList=new ArrayList<>();
+    private ListView listView;
+    private ArrayAdapter<String > adapter;
 
     private OnFragmentInteractionListener mListener;
 
@@ -61,6 +81,7 @@ public class ListClassesFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
@@ -71,43 +92,74 @@ public class ListClassesFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.fragment_list_classes,container,false);
-        ArrayList<Class> materias=new ArrayList<>();
 
-        Class m1=new Class(2020,"calculo integral",1);
-        Class m2=new Class(2021,"Calculo diferencial",51);
-        Class m3=new Class(3031,"Construccion de aplicaciones",51);
-        Class m4=new Class(3030,"Ingenieria de softwqare",1);
-        Class m5=new Class(1015,"cultura iii",5);
-        Class m6=new Class(1015,"cultura iii",5);
-        Class m7=new Class(1015,"cultura iii",5);
-        Class m8=new Class(1015,"cultura iii",5);
-        Class m9=new Class(1015,"cultura iii",5);
-        Class m10=new Class(1015,"cultura iii",5);
-        Class m12=new Class(1015,"cultura iii",5);
-        Class m11=new Class(1015,"cultura iii",5);
-        Class m13=new Class(1015,"cultura iii",5);
-        materias.add(m1);
-        materias.add(m2);
-        materias.add(m3);
-        materias.add(m4);
-        materias.add(m5);
-        materias.add(m6);
-        materias.add(m7);
-        materias.add(m8);
-        //materias.add(m9);
-        //materias.add(m10);
-       // materias.add(m11);
-        //materias.add(m12);
-        //materias.add(m13);
-
-
+        DatabaseReference database=FirebaseDatabase.getInstance().getReference();
+        final ArrayList<Class> materias=new ArrayList<>();
+        DatabaseReference ref=database.child("user/teacher/");
         ListView materiasView=(ListView)view.findViewById(R.id.list_classes);
-        ClassAdapter classAdapter=new ClassAdapter(getContext(),R.layout.list_materia_record_item,materias);
+        final ClassAdapter classAdapter=new ClassAdapter(getContext(),R.layout.list_materia_record_item,materias);
 
         materiasView.setAdapter(classAdapter);
 
+        //DatabaseReference post=ref.child("");
+        //post.push().setValue(new Teacher("diego","vivas",102030,"diego.vivas@conradlorenz.edu.co"));
+
+
+
+        ref.addChildEventListener(new ChildEventListener() {
+            @Override
+            public void onChildAdded(DataSnapshot dataSnapshot, String s) {
+                Log.d("add",dataSnapshot.getValue().getClass().getName()+" id: "+dataSnapshot.getKey());
+                Teacher string = dataSnapshot.getValue(Teacher.class);
+
+                Log.w("class",string.getClasses().get(0).getName());
+                ArrayList<Class> aux= (ArrayList<Class>) string.getClasses();
+                for (int i = 0; i <aux.size() ; i++) {
+                    materias.add(aux.get(i));
+                }
+               classAdapter.notifyDataSetChanged();
+            }
+
+            @Override
+            public void onChildChanged(DataSnapshot dataSnapshot, String s) {}
+            @Override
+            public void onChildMoved(DataSnapshot dataSnapshot, String s) {}
+
+            @Override
+            public void onChildRemoved(DataSnapshot dataSnapshot) {
+                Class string = dataSnapshot.getValue(Class.class);
+                materias.remove(string);
+                classAdapter.notifyDataSetChanged();
+
+
+            }
+
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+
+        materiasView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Toast.makeText(getContext(),materias.get(i).getName(),Toast.LENGTH_SHORT).show();
+
+                ListStudentFragment.students=new ArrayList<Student>();//materias.get(i).getStudents();
+                ListStudentFragment.students.clear();
+                for (int j = 0; j <materias.get(i).getStudents().size() ; j++) {
+                    ListStudentFragment.students.add(materias.get(i).getStudents().get(j));
+                }
+
+
+
+            }
+        });
+
         return view;
     }
+
 
     // TODO: Rename method, update argument and hook method into UI event
     public void onButtonPressed(Uri uri) {

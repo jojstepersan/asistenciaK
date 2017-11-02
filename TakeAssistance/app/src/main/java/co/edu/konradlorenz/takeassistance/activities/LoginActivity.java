@@ -1,5 +1,7 @@
 package co.edu.konradlorenz.takeassistance.activities;
 
+
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -234,6 +236,11 @@ public class LoginActivity extends MainActivity implements View.OnClickListener 
         }
     }
 }
+
+
+
+
+
 
 
 

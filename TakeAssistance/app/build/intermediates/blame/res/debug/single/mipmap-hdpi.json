@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\LauraValentina\\Music\\android\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\LauraValentina\\Music\\android\\TakeAssistance\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\LauraValentina\\Music\\android\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\LauraValentina\\Music\\android\\TakeAssistance\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\LauraValentina\\Music\\android\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_take_assistance.png",
+        "source": "C:\\Users\\LauraValentina\\Music\\android\\TakeAssistance\\app\\src\\main\\res\\mipmap-hdpi\\ic_take_assistance.png"
+    },
+    {
+        "merged": "C:\\Users\\LauraValentina\\Music\\android\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_lock_black.png",
+        "source": "C:\\Users\\LauraValentina\\Music\\android\\TakeAssistance\\app\\src\\main\\res\\mipmap-hdpi\\ic_lock_black.png"
+    }
+]

@@ -13,6 +13,8 @@ import android.widget.TextView;
 import co.edu.konradlorenz.takeassistance.R;
 import co.edu.konradlorenz.takeassistance.fragments.ListClassesFragment;
 import co.edu.konradlorenz.takeassistance.fragments.ListStudentFragment;
+import co.edu.konradlorenz.takeassistance.fragments.ProfileFragment;
+import co.edu.konradlorenz.takeassistance.fragments.TakeAssistanceFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,16 +30,15 @@ public class MainActivity extends AppCompatActivity {
             switch (item.getItemId()) {
                 case R.id.navigation_home:
                     transaction.replace(R.id.fragmento_activity_main,new ListClassesFragment()).commitNow();
-//                    mTextMessage.setText(R.string.title_home);
                     return true;
                 case R.id.navigation_dashboard:
                     transaction.replace(R.id.fragmento_activity_main,new ListStudentFragment()).commitNow();
-                 //   mTextMessage.setText(R.string.title_dashboard);
                     return true;
                 case R.id.navigation_notifications:
-                    Intent siguiente = new Intent(MainActivity.this, ProfileActivity.class);
-                    startActivity(siguiente);
-                //    mTextMessage.setText(R.string.title_notifications);
+                    transaction.replace(R.id.fragmento_activity_main,new ProfileFragment()).commit();
+                    return true;
+                case R.id.take_assistanse:
+                    transaction.replace(R.id.fragmento_activity_main,new TakeAssistanceFragment()).commit();
                     return true;
             }
             return false;

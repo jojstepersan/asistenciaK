@@ -22,6 +22,7 @@ public class Student {
         assistances=new ArrayList<>();
     }
 
+    public Student(){}
     public String getName() {
         return name;
     }
