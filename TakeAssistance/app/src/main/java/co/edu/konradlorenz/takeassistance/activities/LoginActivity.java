@@ -178,8 +178,13 @@ public class LoginActivity extends MainActivity implements View.OnClickListener 
         // [END send_email_verification]
     }
 
+<<<<<<< HEAD
     private boolean validateForm() {
         boolean valid = true;
+=======
+    private void userLogin(String userEmail, String pass) {
+
+>>>>>>> 25b83e2aa5a18adaeb2905ca10c421bf43da6ae7
 
         String email = mEmailField.getText().toString();
         if (TextUtils.isEmpty(email)) {
