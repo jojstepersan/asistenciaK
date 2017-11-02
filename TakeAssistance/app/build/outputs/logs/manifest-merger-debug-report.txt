@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/AndroidManifest.xml:2:1-31:12
+ADDED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/AndroidManifest.xml:2:1-35:12
 	package
 		ADDED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/AndroidManifest.xml:3:5-49
 		INJECTED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/AndroidManifest.xml
@@ -26,12 +26,15 @@ ADDED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/a
 	android:name
 		ADDED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/AndroidManifest.xml:8:22-69
 application
-ADDED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/AndroidManifest.xml:10:5-29:19
+ADDED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/AndroidManifest.xml:10:5-33:19
 MERGED from [com.android.support:design:26.0.0-alpha1] /home/jojstepersan/.android/build-cache/553e60e25b8edaa883aa3db1d4b8ef46032c21de/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/jojstepersan/.android/build-cache/52aeb34f429369145581a7e78c00df81eb6a4f94/output/AndroidManifest.xml:26:5-20
+MERGED from [com.firebaseui:firebase-ui-database:1.0.0] /home/jojstepersan/.android/build-cache/61891aaffa6b3d91dd9e4a7e54743dbebfdb15c2/output/AndroidManifest.xml:13:5-17:19
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/jojstepersan/.android/build-cache/baee6b22aa53e52d13b21df485494a55a6934900/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:26.0.0-alpha1] /home/jojstepersan/.android/build-cache/52aeb34f429369145581a7e78c00df81eb6a4f94/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/jojstepersan/.android/build-cache/1517118dad6483d8eeeebc13f9f5e7bd61b66352/output/AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-auth:10.0.1] /home/jojstepersan/.android/build-cache/df57a39a7111a44a1867e4c5ed4bd658d63c09e5/output/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /home/jojstepersan/.android/build-cache/a8de729798d902fa086dc4d7accfbb0e757e4d0d/output/AndroidManifest.xml:18:5-20:19
 MERGED from [com.google.firebase:firebase-core:10.0.1] /home/jojstepersan/.android/build-cache/c050f33f1cbbff7c0a519650c48df68792cb6377/output/AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics:10.0.1] /home/jojstepersan/.android/build-cache/7bd08ef030dc5e16cdccbb2fe06de74a77204b77/output/AndroidManifest.xml:24:5-33:19
 MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/jojstepersan/.android/build-cache/08f4736ad4ee65aa43fc12816a15d6ec4a605d1a/output/AndroidManifest.xml:24:5-28:19
@@ -58,37 +61,40 @@ MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/jojstepersa
 	android:theme
 		ADDED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/AndroidManifest.xml:16:9-40
 activity#co.edu.konradlorenz.takeassistance.activities.MainActivity
-ADDED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/AndroidManifest.xml:17:9-25:20
+ADDED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/AndroidManifest.xml:17:9-22:20
 	android:label
 		ADDED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/AndroidManifest.xml:19:13-45
 	android:name
 		ADDED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/AndroidManifest.xml:18:13-52
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/AndroidManifest.xml:20:13-24:29
-action#android.intent.action.MAIN
-ADDED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/AndroidManifest.xml:21:17-69
-	android:name
-		ADDED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/AndroidManifest.xml:21:25-66
-category#android.intent.category.LAUNCHER
-ADDED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/AndroidManifest.xml:23:17-77
-	android:name
-		ADDED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/AndroidManifest.xml:23:27-74
-activity#co.edu.konradlorenz.takeassistance.LoginActivity
-ADDED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/AndroidManifest.xml:26:9-28:69
+activity#co.edu.konradlorenz.takeassistance.activities.LoginActivity
+ADDED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/AndroidManifest.xml:23:9-32:20
 	android:label
-		ADDED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/AndroidManifest.xml:28:13-57
+		ADDED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/AndroidManifest.xml:25:13-57
 	android:name
-		ADDED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/AndroidManifest.xml:27:13-42
+		ADDED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/AndroidManifest.xml:24:13-53
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/AndroidManifest.xml:29:27-74
 uses-sdk
 INJECTED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:26.0.0-alpha1] /home/jojstepersan/.android/build-cache/553e60e25b8edaa883aa3db1d4b8ef46032c21de/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/jojstepersan/.android/build-cache/52aeb34f429369145581a7e78c00df81eb6a4f94/output/AndroidManifest.xml:20:5-44
+MERGED from [com.firebaseui:firebase-ui-database:1.0.0] /home/jojstepersan/.android/build-cache/61891aaffa6b3d91dd9e4a7e54743dbebfdb15c2/output/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/jojstepersan/.android/build-cache/baee6b22aa53e52d13b21df485494a55a6934900/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/jojstepersan/.android/build-cache/ae090721c2aecbda60e10af45783063fa87014e9/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.0.0-alpha1] /home/jojstepersan/.android/build-cache/52aeb34f429369145581a7e78c00df81eb6a4f94/output/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/jojstepersan/.android/build-cache/1517118dad6483d8eeeebc13f9f5e7bd61b66352/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/jojstepersan/.android/build-cache/ae090721c2aecbda60e10af45783063fa87014e9/output/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-database:10.0.1] /home/jojstepersan/.android/build-cache/aa0024714e28f3bcd839fbe88123916509db7f00/output/AndroidManifest.xml:3:5-42
 MERGED from [com.google.firebase:firebase-database-connection:10.0.1] /home/jojstepersan/.android/build-cache/ed71808382d4bff9493ea52b5f159aa6a8e777ea/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-auth:10.0.1] /home/jojstepersan/.android/build-cache/df57a39a7111a44a1867e4c5ed4bd658d63c09e5/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /home/jojstepersan/.android/build-cache/a8de729798d902fa086dc4d7accfbb0e757e4d0d/output/AndroidManifest.xml:17:5-42
 MERGED from [com.google.firebase:firebase-core:10.0.1] /home/jojstepersan/.android/build-cache/c050f33f1cbbff7c0a519650c48df68792cb6377/output/AndroidManifest.xml:4:5-42
 MERGED from [com.google.firebase:firebase-analytics:10.0.1] /home/jojstepersan/.android/build-cache/7bd08ef030dc5e16cdccbb2fe06de74a77204b77/output/AndroidManifest.xml:17:5-42
 MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/jojstepersan/.android/build-cache/08f4736ad4ee65aa43fc12816a15d6ec4a605d1a/output/AndroidManifest.xml:17:5-42
@@ -112,11 +118,11 @@ MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/jojstepersa
 		INJECTED from /home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:26.0.0-alpha1] /home/jojstepersan/.android/build-cache/553e60e25b8edaa883aa3db1d4b8ef46032c21de/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/jojstepersan/.android/build-cache/52aeb34f429369145581a7e78c00df81eb6a4f94/output/AndroidManifest.xml:22:5-24:41
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/AndroidManifest.xml:25:5-27:41
 MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/jojstepersan/.android/build-cache/baee6b22aa53e52d13b21df485494a55a6934900/output/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/jojstepersan/.android/build-cache/ae090721c2aecbda60e10af45783063fa87014e9/output/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:transition:26.0.0-alpha1] /home/jojstepersan/.android/build-cache/52aeb34f429369145581a7e78c00df81eb6a4f94/output/AndroidManifest.xml:22:5-24:41
 MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/jojstepersan/.android/build-cache/1517118dad6483d8eeeebc13f9f5e7bd61b66352/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/jojstepersan/.android/build-cache/ae090721c2aecbda60e10af45783063fa87014e9/output/AndroidManifest.xml:22:5-24:41
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/jojstepersan/.android/build-cache/d48117aac7420b3852e70cfce0c5a8278c067d0e/output/AndroidManifest.xml:25:5-27:41
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/jojstepersan/.android/build-cache/3a343492c30975600dec83ccaa16203bb3c14ca5/output/AndroidManifest.xml:25:5-27:41
 MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/jojstepersan/.android/build-cache/73d723251bde40dcf9674ca1b47c9e196c2c7b08/output/AndroidManifest.xml:25:5-27:41
@@ -128,11 +134,27 @@ MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/jojstepersa
 	android:name
 		ADDED from [com.android.support:design:26.0.0-alpha1] /home/jojstepersan/.android/build-cache/553e60e25b8edaa883aa3db1d4b8ef46032c21de/output/AndroidManifest.xml:26:9-47
 uses-permission#android.permission.INTERNET
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/jojstepersan/.android/build-cache/7bd08ef030dc5e16cdccbb2fe06de74a77204b77/output/AndroidManifest.xml:20:5-66
+ADDED from [com.firebaseui:firebase-ui-database:1.0.0] /home/jojstepersan/.android/build-cache/61891aaffa6b3d91dd9e4a7e54743dbebfdb15c2/output/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] /home/jojstepersan/.android/build-cache/7bd08ef030dc5e16cdccbb2fe06de74a77204b77/output/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/jojstepersan/.android/build-cache/08f4736ad4ee65aa43fc12816a15d6ec4a605d1a/output/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/jojstepersan/.android/build-cache/dc35a09852e4ea7adaf300ec3e480d77eeecf90a/output/AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/jojstepersan/.android/build-cache/7bd08ef030dc5e16cdccbb2fe06de74a77204b77/output/AndroidManifest.xml:20:22-64
+		ADDED from [com.firebaseui:firebase-ui-database:1.0.0] /home/jojstepersan/.android/build-cache/61891aaffa6b3d91dd9e4a7e54743dbebfdb15c2/output/AndroidManifest.xml:11:22-64
+meta-data#com.google.android.gms.version
+ADDED from [com.firebaseui:firebase-ui-database:1.0.0] /home/jojstepersan/.android/build-cache/61891aaffa6b3d91dd9e4a7e54743dbebfdb15c2/output/AndroidManifest.xml:14:9-16:69
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/jojstepersan/.android/build-cache/5fed7e3b16a1a2f0e4b3df4f3d67aab642c2386f/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.firebaseui:firebase-ui-database:1.0.0] /home/jojstepersan/.android/build-cache/61891aaffa6b3d91dd9e4a7e54743dbebfdb15c2/output/AndroidManifest.xml:16:13-66
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-database:1.0.0] /home/jojstepersan/.android/build-cache/61891aaffa6b3d91dd9e4a7e54743dbebfdb15c2/output/AndroidManifest.xml:15:13-58
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.0.1] /home/jojstepersan/.android/build-cache/a8de729798d902fa086dc4d7accfbb0e757e4d0d/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /home/jojstepersan/.android/build-cache/a8de729798d902fa086dc4d7accfbb0e757e4d0d/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /home/jojstepersan/.android/build-cache/a8de729798d902fa086dc4d7accfbb0e757e4d0d/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /home/jojstepersan/.android/build-cache/a8de729798d902fa086dc4d7accfbb0e757e4d0d/output/AndroidManifest.xml:19:19-85
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/jojstepersan/.android/build-cache/7bd08ef030dc5e16cdccbb2fe06de74a77204b77/output/AndroidManifest.xml:21:5-78
 MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/jojstepersan/.android/build-cache/08f4736ad4ee65aa43fc12816a15d6ec4a605d1a/output/AndroidManifest.xml:21:5-78
@@ -243,9 +265,3 @@ ADDED from [com.google.firebase:firebase-common:10.0.1] /home/jojstepersan/.andr
 		ADDED from [com.google.firebase:firebase-common:10.0.1] /home/jojstepersan/.android/build-cache/8744cbbaf15edf57e99631e35023ff0432d0f570/output/AndroidManifest.xml:6:169-192
 	android:name
 		ADDED from [com.google.firebase:firebase-common:10.0.1] /home/jojstepersan/.android/build-cache/8744cbbaf15edf57e99631e35023ff0432d0f570/output/AndroidManifest.xml:6:79-143
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:10.0.1] /home/jojstepersan/.android/build-cache/5fed7e3b16a1a2f0e4b3df4f3d67aab642c2386f/output/AndroidManifest.xml:20:9-121
-	android:value
-		ADDED from [com.google.android.gms:play-services-basement:10.0.1] /home/jojstepersan/.android/build-cache/5fed7e3b16a1a2f0e4b3df4f3d67aab642c2386f/output/AndroidManifest.xml:20:66-119
-	android:name
-		ADDED from [com.google.android.gms:play-services-basement:10.0.1] /home/jojstepersan/.android/build-cache/5fed7e3b16a1a2f0e4b3df4f3d67aab642c2386f/output/AndroidManifest.xml:20:20-65

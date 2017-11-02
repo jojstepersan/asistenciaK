@@ -14,6 +14,7 @@ import co.edu.konradlorenz.takeassistance.R;
 import co.edu.konradlorenz.takeassistance.fragments.ListClassesFragment;
 import co.edu.konradlorenz.takeassistance.fragments.ListStudentFragment;
 import co.edu.konradlorenz.takeassistance.fragments.ProfileFragment;
+import co.edu.konradlorenz.takeassistance.fragments.TakeAssistanceFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,7 +36,9 @@ public class MainActivity extends AppCompatActivity {
                     return true;
                 case R.id.navigation_notifications:
                     transaction.replace(R.id.fragmento_activity_main,new ProfileFragment()).commit();
-
+                    return true;
+                case R.id.take_assistanse:
+                    transaction.replace(R.id.fragmento_activity_main,new TakeAssistanceFragment()).commit();
                     return true;
             }
             return false;

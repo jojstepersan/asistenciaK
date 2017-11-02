@@ -1,19 +1,19 @@
 [
     {
-        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
-        "source": "/home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/res/drawable/abc_edit_text_material.xml"
-    },
-    {
         "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
         "source": "/home/jojstepersan/.android/build-cache/553e60e25b8edaa883aa3db1d4b8ef46032c21de/output/res/drawable/design_snackbar_background.xml"
     },
     {
-        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
-        "source": "/home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/res/drawable/abc_btn_borderless_material.xml"
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/res/drawable/abc_edit_text_material.xml"
     },
     {
         "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
         "source": "/home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/res/drawable/abc_btn_borderless_material.xml"
     },
     {
         "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
@@ -32,12 +32,12 @@
         "source": "/home/jojstepersan/.android/build-cache/553e60e25b8edaa883aa3db1d4b8ef46032c21de/output/res/drawable/navigation_empty_icon.xml"
     },
     {
-        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
-        "source": "/home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/res/drawable/abc_seekbar_thumb_material.xml"
-    },
-    {
         "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/ic_notifications_black_24dp.xml",
         "source": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/res/drawable/ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/res/drawable/abc_seekbar_thumb_material.xml"
     },
     {
         "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
@@ -56,8 +56,16 @@
         "source": "/home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/home/jojstepersan/.android/build-cache/a8de729798d902fa086dc4d7accfbb0e757e4d0d/output/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
         "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
         "source": "/home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/home/jojstepersan/.android/build-cache/a8de729798d902fa086dc4d7accfbb0e757e4d0d/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
     },
     {
         "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
@@ -80,12 +88,12 @@
         "source": "/home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/res/drawable/abc_text_cursor_material.xml"
     },
     {
-        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
-        "source": "/home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/res/drawable/notification_icon_background.xml"
-    },
-    {
         "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
         "source": "/home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/res/drawable/notification_icon_background.xml"
     },
     {
         "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
@@ -106,6 +114,14 @@
     {
         "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
         "source": "/home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/home/jojstepersan/.android/build-cache/a8de729798d902fa086dc4d7accfbb0e757e4d0d/output/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/home/jojstepersan/.android/build-cache/a8de729798d902fa086dc4d7accfbb0e757e4d0d/output/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
     },
     {
         "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
@@ -132,8 +148,16 @@
         "source": "/home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/res/drawable/abc_btn_default_mtrl_shape.xml"
     },
     {
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/home/jojstepersan/.android/build-cache/a8de729798d902fa086dc4d7accfbb0e757e4d0d/output/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
         "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
         "source": "/home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/ic_account_circle_black_24dp.xml",
+        "source": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/res/drawable/ic_account_circle_black_24dp.xml"
     },
     {
         "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
@@ -144,12 +168,20 @@
         "source": "/home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/res/drawable/abc_btn_colored_material.xml"
     },
     {
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/home/jojstepersan/.android/build-cache/a8de729798d902fa086dc4d7accfbb0e757e4d0d/output/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
         "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
         "source": "/home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
         "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
         "source": "/home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/home/jojstepersan/.android/build-cache/a8de729798d902fa086dc4d7accfbb0e757e4d0d/output/res/drawable/common_google_signin_btn_text_light_focused.xml"
     },
     {
         "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
@@ -180,6 +212,10 @@
         "source": "/home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/ic_lock_white_24dp.xml",
+        "source": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/res/drawable/ic_lock_white_24dp.xml"
+    },
+    {
         "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
         "source": "/home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/res/drawable/abc_ic_go_search_api_material.xml"
     },
@@ -198,5 +234,9 @@
     {
         "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
         "source": "/home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/home/jojstepersan/.android/build-cache/a8de729798d902fa086dc4d7accfbb0e757e4d0d/output/res/drawable/common_google_signin_btn_text_dark_focused.xml"
     }
 ]

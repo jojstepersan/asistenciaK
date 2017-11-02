@@ -35,6 +35,8 @@ public class ListStudentFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
+
+    public static ArrayList<Student> students=new ArrayList<>();
     public ListStudentFragment() {
         // Required empty public constructor
     }
@@ -71,14 +73,14 @@ public class ListStudentFragment extends Fragment {
                              Bundle savedInstanceState) {
 
         View view =inflater.inflate(R.layout.fragment_list_student, container, false);
-        ArrayList<Student> students=new ArrayList<>();
+     /*   ArrayList<Student> students=new ArrayList<>();
         Student s1=new Student("valentina",506151050,"ingeniria de sistemas","lindarte");
         Student s2=new Student("mario",506151084,"ingeniria de sistemas","herrera");
         Student s3=new Student("stiven",506151064,"ingeniria de sistemas","perdomo");
         students.add(s1);
         students.add(s2);
         students.add(s3);
-
+*/
         ListView listView=(ListView)view.findViewById(R.id.list_student);
         StudentAdapter studentAdapter=new StudentAdapter(getContext(),R.layout.list_materia_record_item,students);
         listView.setAdapter(studentAdapter);

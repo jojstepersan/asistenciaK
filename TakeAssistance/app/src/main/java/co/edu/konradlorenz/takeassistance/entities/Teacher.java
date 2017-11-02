@@ -22,6 +22,7 @@ public class Teacher {
         classes =new ArrayList<>();
     }
 
+    public Teacher(){}
     public List<Class> getClasses() {
         return classes;
     }

@@ -16,4 +16,9 @@
         android:icon="@drawable/ic_notifications_black_24dp"
         android:title="@string/profile" />
 
+    <item
+        android:id="@+id/take_assistanse"
+        android:icon="@mipmap/ic_take_assistance"
+        android:title="@string/assistance" />
+
 </menu>

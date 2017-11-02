@@ -14,7 +14,11 @@
             android:id="@+id/list_classes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-        ></ListView>
+            ></ListView>
+    <!--android.support.v7.app.AlertController.RecycleListView
+        android:id="@+id/list_classes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.app.AlertController.RecycleListView-->
     </LinearLayout>
 
 </FrameLayout>

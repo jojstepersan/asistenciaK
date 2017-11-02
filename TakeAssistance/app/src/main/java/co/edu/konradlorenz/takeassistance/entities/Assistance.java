@@ -16,6 +16,7 @@ public class Assistance {
         this.gone = gone;
     }
 
+    public Assistance(){}
     public Date getDate() {
         return date;
     }
