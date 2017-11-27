@@ -1,18 +1,18 @@
 [
     {
-        "merged": "C:\\Users\\LauraValentina\\Music\\android\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\LauraValentina\\Music\\android\\TakeAssistance\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_take_assistance.png",
+        "source": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/res/mipmap-xhdpi/ic_take_assistance.png"
     },
     {
-        "merged": "C:\\Users\\LauraValentina\\Music\\android\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher_round.png",
-        "source": "C:\\Users\\LauraValentina\\Music\\android\\TakeAssistance\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher_round.png",
+        "source": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\LauraValentina\\Music\\android\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_take_assistance.png",
-        "source": "C:\\Users\\LauraValentina\\Music\\android\\TakeAssistance\\app\\src\\main\\res\\mipmap-xhdpi\\ic_take_assistance.png"
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\LauraValentina\\Music\\android\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_lock_black.png",
-        "source": "C:\\Users\\LauraValentina\\Music\\android\\TakeAssistance\\app\\src\\main\\res\\mipmap-xhdpi\\ic_lock_black.png"
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_lock_black.png",
+        "source": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/res/mipmap-xhdpi/ic_lock_black.png"
     }
 ]

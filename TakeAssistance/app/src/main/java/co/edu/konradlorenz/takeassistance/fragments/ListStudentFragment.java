@@ -37,6 +37,7 @@ public class ListStudentFragment extends Fragment {
 
 
     public static ArrayList<Student> students=new ArrayList<>();
+
     public ListStudentFragment() {
         // Required empty public constructor
     }

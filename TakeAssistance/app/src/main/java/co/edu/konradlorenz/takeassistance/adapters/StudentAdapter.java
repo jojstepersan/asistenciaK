@@ -48,7 +48,6 @@ public class StudentAdapter extends ArrayAdapter<Student> {
         if(code!=null && currentItem.getCode()!=0)
             code.setText(""+currentItem.getCode());
 
-
         return currentView;
     }
 }

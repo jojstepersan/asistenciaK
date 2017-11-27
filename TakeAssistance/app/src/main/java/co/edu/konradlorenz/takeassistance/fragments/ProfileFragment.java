@@ -1,19 +1,24 @@
 package co.edu.konradlorenz.takeassistance.fragments;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import co.edu.konradlorenz.takeassistance.R;
+import co.edu.konradlorenz.takeassistance.activities.ClassesActivity;
+import co.edu.konradlorenz.takeassistance.activities.LoginActivity;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -35,10 +40,10 @@ public class ProfileFragment extends Fragment {
     private FirebaseAuth MyAuth=FirebaseAuth.getInstance();
     private OnFragmentInteractionListener mListener;
 
+
     public ProfileFragment() {
         // Required empty public constructor
     }
-
 
 
     /**
@@ -73,7 +78,26 @@ public class ProfileFragment extends Fragment {
                              Bundle savedInstanceState) {
        // button.setOnClickListener();
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_profile, container, false);
+        View view=inflater.inflate(R.layout.fragment_profile, container, false);
+
+        TextView name=view.findViewById(R.id.profile_name);
+        TextView code=view.findViewById(R.id.profile_code);
+        TextView email=view.findViewById(R.id.profile_email);
+        name.setText(ClassesActivity.teacher.getName()+" "+ClassesActivity.teacher.getLastName());
+      //  Log.d("code: ",ClassesActivity.teacher.getId()+"");
+        code.setText(ClassesActivity.teacher.getId()+"");
+        email.setText(ClassesActivity.teacher.getEmail());
+        Button singOut=view.findViewById(R.id.sign_out_button);
+        singOut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                LoginActivity.login=false;
+                Intent intent =new Intent(getActivity().getApplicationContext(),LoginActivity.class);
+                Log.d("singOut","me sali de esta joda");
+                startActivity(intent);
+            }
+        });
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

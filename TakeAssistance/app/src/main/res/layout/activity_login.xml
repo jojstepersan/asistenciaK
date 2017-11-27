@@ -92,20 +92,7 @@
             style="@style/Base.TextAppearance.AppCompat.Body1"
             android:layout_marginTop="24dp"
             android:textSize="18sp"/>
-        <Button
-            android:id="@+id/email_create_account_button"
 
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/colorAccent"
-            android:text="Crear Cuenta"
-            style="@style/Base.TextAppearance.AppCompat.Body1"
-            android:textColor="#fff"
-            android:textAllCaps="false"
-            android:textSize="18sp"
-            android:layout_marginTop="16dp"
-            android:clickable="true"
-            android:padding="16dp"/>
 
         <LinearLayout
             android:id="@+id/signed_in_buttons"

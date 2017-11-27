@@ -11,33 +11,55 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="3"
-        android:src="@drawable/ic_notifications_black_24dp"/>
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/ic_launcher_round"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_weight="1"
         android:orientation="vertical"
         android:layout_height="wrap_content"
+        android:paddingTop="5dp"
         >
+
 
 
         <TextView
             android:id="@+id/list_materia_name"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginBottom="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nombre"/>
+            android:text="Nombre:"
+            android:textColor="@color/white"
+            android:textStyle="normal"
+
+           />
 
         <TextView
             android:id="@+id/list_materia_id"
             android:layout_width="match_parent"
+            android:layout_marginLeft="2dp"
             android:layout_height="wrap_content"
-            android:text="Código"/>
+            android:textColor="@color/white"
+            android:text="Código:"/>
 
         <TextView
             android:id="@+id/list_materia_group"
             android:layout_width="match_parent"
+            android:layout_marginLeft="2dp"
             android:layout_height="wrap_content"
-            android:text="grupo"/>
+            android:textColor="@color/white"
+            android:text="grupo:"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_marginTop="10dp"
+            android:visibility="visible"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/colorPrimaryDark"/>
 
     </LinearLayout>
 

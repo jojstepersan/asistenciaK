@@ -22,11 +22,13 @@
         android:layout_height="48dp"
         android:layout_gravity="bottom"
         android:layout_width="match_parent"
+
         android:id="@+id/aboutlayout">
 
         <android.support.design.widget.BottomNavigationView
             android:id="@+id/navigation"
             android:layout_width="match_parent"
+            app:itemBackground="@color/colorAccent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:background="?android:attr/windowBackground"

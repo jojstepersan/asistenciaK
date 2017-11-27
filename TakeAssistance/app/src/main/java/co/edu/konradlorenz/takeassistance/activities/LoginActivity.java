@@ -3,6 +3,7 @@ package co.edu.konradlorenz.takeassistance.activities;
 
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -24,6 +25,7 @@ import co.edu.konradlorenz.takeassistance.R;
 
 public class LoginActivity extends MainActivity implements View.OnClickListener {
 
+    public static boolean login=false;
     private Button buttonLogin;
     private EditText editTextUser;
     private EditText editTextPassword;
@@ -50,12 +52,19 @@ public class LoginActivity extends MainActivity implements View.OnClickListener 
 
         // Buttons
         findViewById(R.id.email_sign_in_button).setOnClickListener(this);
-        findViewById(R.id.email_create_account_button).setOnClickListener(this);
         findViewById(R.id.sign_out_button).setOnClickListener(this);
         findViewById(R.id.verify_email_button).setOnClickListener(this);
 
         // [START initialize_auth]
         mAuth = FirebaseAuth.getInstance();
+
+        // traen el shared preference login
+
+        Intent intent = new Intent(LoginActivity.this,ClassesActivity.class);
+        if(login)
+            startActivity(intent);
+
+
         // [END initialize_auth]
     }
 
@@ -119,11 +128,10 @@ public class LoginActivity extends MainActivity implements View.OnClickListener 
                         if (task.isSuccessful()) {
                             // Sign in success, update UI with the signed-in user's information
                             Log.d(TAG, "signInWithEmail:success");
+
                             FirebaseUser user = mAuth.getCurrentUser();
                             updateUI(user);
-                            Intent intent = new Intent(LoginActivity.this,MainActivity.class);
-                            startActivity(intent);
-
+                            login = true;
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w(TAG, "signInWithEmail:failure", task.getException());
@@ -225,9 +233,7 @@ public class LoginActivity extends MainActivity implements View.OnClickListener 
     @Override
     public void onClick(View v) {
         int i = v.getId();
-        if (i == R.id.email_create_account_button) {
-            createAccount(mEmailField.getText().toString(), mPasswordField.getText().toString());
-        } else if (i == R.id.email_sign_in_button) {
+      if (i == R.id.email_sign_in_button) {
             signIn(mEmailField.getText().toString(), mPasswordField.getText().toString());
 
 

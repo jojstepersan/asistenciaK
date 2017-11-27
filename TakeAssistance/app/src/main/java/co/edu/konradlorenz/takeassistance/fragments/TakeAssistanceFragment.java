@@ -1,14 +1,23 @@
 package co.edu.konradlorenz.takeassistance.fragments;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.SurfaceView;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+
+import com.google.android.gms.vision.CameraSource;
+import java.util.ArrayList;
 
 import co.edu.konradlorenz.takeassistance.R;
+import co.edu.konradlorenz.takeassistance.activities.QRActivity;
+import co.edu.konradlorenz.takeassistance.entities.Student;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -27,9 +36,14 @@ public class TakeAssistanceFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
-
+    public static ArrayList<Student> students=new ArrayList<>();
     private OnFragmentInteractionListener mListener;
 
+    private CameraSource cameraSource;
+    private SurfaceView cameraView;
+    private final int MY_PERMISSIONS_REQUEST_CAMERA = 1;
+    private String token = "";
+    private String tokenanterior = "";
     public TakeAssistanceFragment() {
         // Required empty public constructor
     }
@@ -55,6 +69,7 @@ public class TakeAssistanceFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
@@ -65,7 +80,23 @@ public class TakeAssistanceFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_take_assistance, container, false);
+        View view=inflater.inflate(R.layout.fragment_take_assistance, container, false);
+        Button button=(Button)view.findViewById(R.id.take_assistanse_button);
+        button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Log.d("click","button submit");
+            }
+        });
+
+        Button botonQr = (Button) view.findViewById(R.id.go_to_camara);
+        botonQr.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+            }
+        });
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -86,6 +117,7 @@ public class TakeAssistanceFragment extends Fragment {
          //           + " must implement OnFragmentInteractionListener");
         }
     }
+
 
     @Override
     public void onDetach() {

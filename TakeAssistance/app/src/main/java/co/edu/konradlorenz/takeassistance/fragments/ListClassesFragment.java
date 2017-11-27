@@ -110,11 +110,10 @@ public class ListClassesFragment extends Fragment {
         ref.addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
-                Log.d("add",dataSnapshot.getValue().getClass().getName()+" id: "+dataSnapshot.getKey());
+             //   Log.d("add",dataSnapshot.getValue().getClass().getName()+" id: "+dataSnapshot.getKey());
                 Teacher string = dataSnapshot.getValue(Teacher.class);
-
-                Log.w("class",string.getClasses().get(0).getName());
                 ArrayList<Class> aux= (ArrayList<Class>) string.getClasses();
+
                 for (int i = 0; i <aux.size() ; i++) {
                     materias.add(aux.get(i));
                 }
@@ -148,9 +147,10 @@ public class ListClassesFragment extends Fragment {
                 Toast.makeText(getContext(),materias.get(i).getName(),Toast.LENGTH_SHORT).show();
 
                 ListStudentFragment.students=new ArrayList<Student>();//materias.get(i).getStudents();
-                ListStudentFragment.students.clear();
+                TakeAssistanceFragment.students=new ArrayList<Student>();
                 for (int j = 0; j <materias.get(i).getStudents().size() ; j++) {
                     ListStudentFragment.students.add(materias.get(i).getStudents().get(j));
+                    TakeAssistanceFragment.students.add(materias.get(i).getStudents().get(j));
                 }
 
 

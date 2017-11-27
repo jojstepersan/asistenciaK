@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\LauraValentina\\Music\\android\\TakeAssistance\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+        "outputFile": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 125
                 },
                 "from": {
-                    "file": "C:\\Users\\LauraValentina\\.android\\build-cache\\fc023947f0e450f7904679bcf6d944caa7250845\\output\\res\\values-v22\\values-v22.xml",
+                    "file": "/home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/res/values-v22/values-v22.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 212
                 },
                 "from": {
-                    "file": "C:\\Users\\LauraValentina\\.android\\build-cache\\fc023947f0e450f7904679bcf6d944caa7250845\\output\\res\\values-v22\\values-v22.xml",
+                    "file": "/home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/res/values-v22/values-v22.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -50,7 +50,7 @@
                     "endOffset": 548
                 },
                 "from": {
-                    "file": "C:\\Users\\LauraValentina\\.android\\build-cache\\fc023947f0e450f7904679bcf6d944caa7250845\\output\\res\\values-v22\\values-v22.xml",
+                    "file": "/home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/res/values-v22/values-v22.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -71,7 +71,7 @@
                     "endOffset": 896
                 },
                 "from": {
-                    "file": "C:\\Users\\LauraValentina\\.android\\build-cache\\fc023947f0e450f7904679bcf6d944caa7250845\\output\\res\\values-v22\\values-v22.xml",
+                    "file": "/home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/res/values-v22/values-v22.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
