@@ -62,7 +62,7 @@ public class LoginActivity extends MainActivity implements View.OnClickListener 
 
         Intent intent = new Intent(LoginActivity.this,ClassesActivity.class);
         if(login)
-            startActivity(intent);
+           startActivity(intent);
 
 
         // [END initialize_auth]
@@ -218,9 +218,9 @@ public class LoginActivity extends MainActivity implements View.OnClickListener 
             //user.getEmail(), user.isEmailVerified()));
             //mDetailTextView.setText(getString(R.string.firebase_status_fmt, user.getUid()));
 
-            findViewById(R.id.sign_out_button).setVisibility(View.VISIBLE);
+          //  findViewById(R.id.sign_out_button).setVisibility(View.VISIBLE);
 
-            findViewById(R.id.verify_email_button).setEnabled(!user.isEmailVerified());
+           // findViewById(R.id.verify_email_button).setEnabled(!user.isEmailVerified());
         } else {
             // mStatusTextView.setText(R.string.signed_out);
             // mDetailTextView.setText(null);
@@ -235,7 +235,6 @@ public class LoginActivity extends MainActivity implements View.OnClickListener 
         int i = v.getId();
       if (i == R.id.email_sign_in_button) {
             signIn(mEmailField.getText().toString(), mPasswordField.getText().toString());
-
 
         } else if (i == R.id.sign_out_button) {
             signOut();

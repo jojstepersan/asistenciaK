@@ -85,17 +85,34 @@ public class TakeAssistanceFragment extends Fragment {
         button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
+
                 Log.d("click","button submit");
             }
         });
-
-        Button botonQr = (Button) view.findViewById(R.id.go_to_camara);
-        botonQr.setOnClickListener(new View.OnClickListener() {
-
+        Button button2=(Button)view.findViewById(R.id.go_to_camara);
+        button2.setOnClickListener(new View.OnClickListener(){
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
+                Log.d("click","button cammera");
+
+                Intent intent = new Intent(getContext(),QRActivity.class);
+                startActivity(intent);
+
+
+
             }
         });
+
+       // Button botonQr = (Button) view.findViewById(R.id.go_to_camara);
+        //botonQr.setOnClickListener(new View.OnClickListener(){
+          //  @Override
+           // public void onClick(View view) {
+             //   Intent intent = new Intent(,QRActivity.class);
+            //}
+       // });
+
+
+
         return view;
     }
 

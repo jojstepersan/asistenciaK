@@ -22,16 +22,17 @@
             android:name=".activities.LoginActivity"
             android:label="@string/login">
 
+
         </activity>
         <activity android:name=".activities.QRActivity" />
         <activity
             android:name=".activities.ClassesActivity"
-            android:label="Classes"
-            >
+            android:label="Classes">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 
