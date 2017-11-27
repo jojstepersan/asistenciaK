@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="co.edu.konradlorenz.takeassistance.fragments.TakeAssistanceFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Tomar asistencia"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:textColor="@color/almost_white"
+            android:textColorHint="@color/black"
+            android:gravity="center"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+
+            />
+        <EditText
+            android:hint="1234567890"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColorHint="@color/almost_white"
+
+
+            android:layout_margin="@dimen/activity_horizontal_margin"
+
+            />
+        <Button
+            android:id="@+id/take_assistanse_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:background="@color/almost_white"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:onClick="takeAssistance"
+            />
+
+        <Button
+            android:id="@+id/go_to_camara"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go to camara"
+            android:background="@color/colorAccent"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:onClick="launchFullActivity"
+            />
+
+    </LinearLayout>
+</FrameLayout>

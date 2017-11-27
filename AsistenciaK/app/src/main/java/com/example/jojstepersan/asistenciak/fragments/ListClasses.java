@@ -10,11 +10,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import com.example.jojstepersan.asistenciak.R;
-import com.example.jojstepersan.asistenciak.adapters.MateriaAdapter;
-import com.example.jojstepersan.asistenciak.entities.Materia;
+import com.example.jojstepersan.asistenciak.adapters.ClassAdapter;
+import com.example.jojstepersan.asistenciak.entities.Class;
 
 import java.util.ArrayList;
 
@@ -73,15 +72,15 @@ public class ListClasses extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.activity_main,container);
+        View view = inflater.inflate(R.layout.fragment_classes,container,false);
 
-        ArrayList<Materia> materias=new ArrayList<>();
+        ArrayList<Class> materias=new ArrayList<>();
 
-        Materia m1=new Materia(2020,"calculo integral",1);
-        Materia m2=new Materia(2021,"Calculo diferencial",51);
-        Materia m3=new Materia(3031,"Construccion de aplicaciones",51);
-        Materia m4=new Materia(3030,"Ingenieria de softwqare",1);
-        Materia m5=new Materia(1015,"cultura iii",5);
+        Class m1=new Class(2020,"calculo integral",1);
+        Class m2=new Class(2021,"Calculo diferencial",51);
+        Class m3=new Class(3031,"Construccion de aplicaciones",51);
+        Class m4=new Class(3030,"Ingenieria de softwqare",1);
+        Class m5=new Class(1015,"cultura iii",5);
 
         materias.add(m1);
         materias.add(m2);
@@ -89,13 +88,16 @@ public class ListClasses extends Fragment {
         materias.add(m4);
         materias.add(m5);
 
-        Log.d("Stiven","tamaño" + materias.size());
 
-        ListView mateariasView=(ListView) view.findViewById(R.id.list_materia);
+        ListView mateariasView=(ListView) view.findViewById(R.id.list_classes);
 
-        MateriaAdapter materiaAdapter=new MateriaAdapter(getContext(),R.layout.list_materia_record_item,materias);
+        ClassAdapter materiaAdapter=new ClassAdapter(getContext(),R.layout.list_materia_record_item,materias);
+        if(materiaAdapter==null)
+            Log.d("tag1","materia adapter es null");
 
         mateariasView.setAdapter(materiaAdapter);
+        if(mateariasView==null)
+            Log.d("tag2","materia view es null");
 
         mateariasView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -120,8 +122,8 @@ public class ListClasses extends Fragment {
         if (context instanceof OnFragmentInteractionListener) {
             mListener = (OnFragmentInteractionListener) context;
         } else {
-            throw new RuntimeException(context.toString()
-                    + " must implement OnFragmentInteractionListener");
+     //       throw new RuntimeException(context.toString()
+       //             + " must implement OnFragmentInteractionListener");
         }
     }
 
