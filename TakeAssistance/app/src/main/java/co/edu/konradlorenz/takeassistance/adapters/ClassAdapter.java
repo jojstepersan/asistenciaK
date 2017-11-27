@@ -40,7 +40,7 @@ public class ClassAdapter extends ArrayAdapter<Class>{
         TextView id=(TextView)currentView.findViewById(R.id.list_materia_id);
         TextView group=(TextView)currentView.findViewById(R.id.list_materia_group);
 
-        icon.setImageResource(R.mipmap.ic_lock_black);
+        icon.setImageResource(R.mipmap.clases);
 
         if(name!=null && currentItem.getName()!=null)
             name.setText(currentItem.getName());

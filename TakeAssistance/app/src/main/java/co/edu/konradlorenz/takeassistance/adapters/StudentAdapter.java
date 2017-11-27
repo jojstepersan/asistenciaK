@@ -41,12 +41,13 @@ public class StudentAdapter extends ArrayAdapter<Student> {
         TextView code=(TextView)currentView.findViewById(R.id.list_materia_id);
 
 
-        icon.setImageResource(R.mipmap.ic_launcher);
+        //icon.setImageResource(R.mipmap.ic_launcher);
 
         if(name!=null && currentItem.getName()!=null)
             name.setText(currentItem.getName());
         if(code!=null && currentItem.getCode()!=0)
             code.setText(""+currentItem.getCode());
+
 
         return currentView;
     }

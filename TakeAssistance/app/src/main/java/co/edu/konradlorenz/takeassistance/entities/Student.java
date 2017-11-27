@@ -13,6 +13,7 @@ public class Student {
     private String program;
     private String lastName;
     private List<Assistance> assistances;
+    
 
     public Student(String name, long code, String program, String lastName) {
         this.name = name;
