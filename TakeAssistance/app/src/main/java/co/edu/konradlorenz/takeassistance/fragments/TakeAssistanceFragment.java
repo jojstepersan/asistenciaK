@@ -11,12 +11,17 @@ import android.view.SurfaceView;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-
+import android.widget.EditText;
+import android.widget.Toast;
 import com.google.android.gms.vision.CameraSource;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import java.util.ArrayList;
-
+import java.util.Date;
 import co.edu.konradlorenz.takeassistance.R;
+import co.edu.konradlorenz.takeassistance.activities.ClassesActivity;
 import co.edu.konradlorenz.takeassistance.activities.QRActivity;
+import co.edu.konradlorenz.takeassistance.entities.Assistance;
 import co.edu.konradlorenz.takeassistance.entities.Student;
 
 /**
@@ -44,6 +49,12 @@ public class TakeAssistanceFragment extends Fragment {
     private final int MY_PERMISSIONS_REQUEST_CAMERA = 1;
     private String token = "";
     private String tokenanterior = "";
+
+
+
+    DatabaseReference database= FirebaseDatabase.getInstance().getReference();
+    DatabaseReference ref=database.child("user/teacher/");
+
     public TakeAssistanceFragment() {
         // Required empty public constructor
     }
@@ -82,35 +93,50 @@ public class TakeAssistanceFragment extends Fragment {
         // Inflate the layout for this fragment
         View view=inflater.inflate(R.layout.fragment_take_assistance, container, false);
         Button button=(Button)view.findViewById(R.id.take_assistanse_button);
-        button.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
+        final EditText code=(EditText)view.findViewById(R.id.take_assistance_code);
+        button.setOnClickListener(new View.OnClickListener() {
+                                      @Override
+                                      public void onClick(View view) {
 
-                Log.d("click","button submit");
-            }
-        });
-        Button button2=(Button)view.findViewById(R.id.go_to_camara);
-        button2.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                Log.d("click","button cammera");
+                                          try {
+                                              long id = Long.valueOf(code.getText().toString());
+                                              Log.d("code", id + "");
+                                              int i;
+                                              for (i = 0; i < ClassesActivity.currentClass.getStudents().size(); i++) {
+                                                  Student currentStudent = ClassesActivity.currentClass.getStudents().get(i);
+                                                  Log.d("code", currentStudent.getName() + " code " + i);
+                                                  if (id == currentStudent.getCode()) {
+                                                      if (currentStudent.getAssistances() == null)
+                                                          currentStudent.setAssistances(new ArrayList<Assistance>());
+                                                      currentStudent.getAssistances().add(new Assistance(new Date(), true));
+                                                      ref.child(ClassesActivity.key).setValue(ClassesActivity.teacher);
+                                                      Toast.makeText(getContext(), "asistencia exitosa", Toast.LENGTH_SHORT).show();
+                                                      break;
+                                                  }
+                                              }
+                                              if (i != ClassesActivity.currentClass.getStudents().size())
+                                                  Toast.makeText(getContext(), "Este estudiante no es del grupo", Toast.LENGTH_SHORT).show();
 
-                Intent intent = new Intent(getContext(),QRActivity.class);
-                startActivity(intent);
+                                              //  code.setHint("code");
+                                              code.setText("");
+                                          } catch (Exception e) {
+                                              Toast.makeText(getContext(), "solo valores numericos", Toast.LENGTH_SHORT).show();
+                                              code.setText("");
+                                          }
+                                      }
+                                  });
+
+                Button button2 = (Button) view.findViewById(R.id.go_to_camara);
+                button2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Log.d("click", "button cammera");
+                        Intent intent = new Intent(getContext(), QRActivity.class);
+                        startActivity(intent);
 
 
-
-            }
-        });
-
-       // Button botonQr = (Button) view.findViewById(R.id.go_to_camara);
-        //botonQr.setOnClickListener(new View.OnClickListener(){
-          //  @Override
-           // public void onClick(View view) {
-             //   Intent intent = new Intent(,QRActivity.class);
-            //}
-       // });
-
+                    }
+                });
 
 
         return view;

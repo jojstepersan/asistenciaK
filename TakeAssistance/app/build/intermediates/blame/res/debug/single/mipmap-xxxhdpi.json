@@ -16,11 +16,11 @@
         "source": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\src\\main\\res\\mipmap-xxxhdpi\\mario.png"
     },
     {
-        "merged": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\clases.png",
         "source": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\src\\main\\res\\mipmap-xxxhdpi\\clases.png"
+    },
+    {
+        "merged": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     }
 ]

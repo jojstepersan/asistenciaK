@@ -26,13 +26,12 @@
 
             />
         <EditText
-            android:hint="1234567890"
+            android:hint="code"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:id="@+id/take_assistance_code"
             android:textColorHint="@color/almost_white"
-
-
             android:layout_margin="@dimen/activity_horizontal_margin"
 
             />
@@ -43,7 +42,6 @@
             android:text="Submit"
             android:background="@color/almost_white"
             android:layout_margin="@dimen/activity_horizontal_margin"
-            android:onClick="takeAssistance"
             />
 
         <Button
