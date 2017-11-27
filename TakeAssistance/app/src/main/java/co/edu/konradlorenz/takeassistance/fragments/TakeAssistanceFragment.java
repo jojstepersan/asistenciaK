@@ -130,7 +130,6 @@ public class TakeAssistanceFragment extends Fragment {
                 button2.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Log.d("click", "button cammera");
                         Intent intent = new Intent(getContext(), QRActivity.class);
                         startActivity(intent);
                     }

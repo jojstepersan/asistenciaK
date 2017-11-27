@@ -17,22 +17,24 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".activities.MainActivity"
-            android:label="@string/app_name"></activity>
-        <activity
-            android:name=".activities.LoginActivity"
-            android:label="@string/login">
-
+            android:label="@string/app_name">
 
         </activity>
+
         <activity android:name=".activities.QRActivity" />
+
         <activity
             android:name=".activities.ClassesActivity"
-            android:label="Classes">
+            android:label="Classes"></activity>
+
+        <activity
+            android:name=".activities.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
     </application>
 

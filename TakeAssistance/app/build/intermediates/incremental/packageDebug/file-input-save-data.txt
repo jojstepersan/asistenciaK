@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Nov 27 11:48:59 COT 2017
+#Mon Nov 27 14:33:07 COT 2017
 20.base=/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/resources-debug.ap_
 143.base=/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/resources-debug.ap_
 340.file=/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xxxhdpi-v4/ic_launchervale.png

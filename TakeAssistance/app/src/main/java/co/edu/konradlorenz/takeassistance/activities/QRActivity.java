@@ -1,11 +1,5 @@
 package co.edu.konradlorenz.takeassistance.activities;
 
-import android.Manifest;
-import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.net.Uri;
-import android.os.Build;
-import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -70,10 +64,7 @@ public class QRActivity extends AppCompatActivity implements ZXingScannerView.Re
         builder.setMessage(result.getText());
         AlertDialog alertDialog = builder.create();
         alertDialog.show();
-        Log.d("code",result2);
-
         scannerView.resumeCameraPreview(this);
-
         try {
             long id = Long.valueOf(result2.toString());
             Log.d("code", id + "");
