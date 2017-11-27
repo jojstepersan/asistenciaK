@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/jojstepersan/.android/build-cache/717d2cd6a8ce0fbd9556c5028eb0d1db7d9dd82c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e8a12af5f81884afc0a660216631f286bf86a448">
+        <dex dex="/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/pre-dexed/debug/classes_36a37c7b0becd29cec92dff9ac183a035d714664.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jojstepersan/.android/build-cache/4a017e2f53c3f10d29f8f537eb2e80a2c5ad9339/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0b723383fcc5c9e6d233f12cf3670c153dcb9f72">
+        <dex dex="/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/pre-dexed/debug/classes_64ce9e324781be86f7cd17bb0607f9e89baf714e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jojstepersan/.android/build-cache/717d2cd6a8ce0fbd9556c5028eb0d1db7d9dd82c/output/jars/libs/zbar.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e671e7a14299d6f2591fc1ae672c49861d3329c6">
+        <dex dex="/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/pre-dexed/debug/zbar_30314467505c019a19774e18bcc594cbb9ba9d8e.jar" />
+    </item>
+
+</items>

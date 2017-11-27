@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">437089100362-odcb0jvislhojom9h1l1n7k9vu4tpjc4.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://takeassistance.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">437089100362</string>
+    <string name="google_api_key" translatable="false">AIzaSyAsOw4CKr5O4qc_lEOkSSg5AmZQM0z2Ozw</string>
+    <string name="google_app_id" translatable="false">1:437089100362:android:bfd50d1b5f3f3bd7</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAsOw4CKr5O4qc_lEOkSSg5AmZQM0z2Ozw</string>
+    <string name="google_storage_bucket" translatable="false">takeassistance.appspot.com</string>
+    <string name="project_id" translatable="false">takeassistance</string>
+</resources>
