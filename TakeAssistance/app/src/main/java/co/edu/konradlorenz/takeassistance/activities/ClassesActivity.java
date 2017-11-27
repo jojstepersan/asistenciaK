@@ -30,6 +30,7 @@ public class ClassesActivity extends AppCompatActivity {
     private Intent intent;
     public static Teacher teacher;
     public static String key;
+    public static Class currentClass;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,7 +42,7 @@ public class ClassesActivity extends AppCompatActivity {
         DatabaseReference database= FirebaseDatabase.getInstance().getReference();
         final ArrayList<Class> materias=new ArrayList<>();
         DatabaseReference ref=database.child("user/teacher/");
-        DatabaseReference ref2=database.child("user/teacher/").child("classes").child("students").child("assistances");
+        //DatabaseReference ref2=database.child("user/teacher/").child("classes").child("students").child("assistances");
         ListView materiasView=(ListView)findViewById(R.id.list_classes);
         final ClassAdapter classAdapter=new ClassAdapter(this,R.layout.list_materia_record_item,materias);
 
@@ -93,6 +94,7 @@ public class ClassesActivity extends AppCompatActivity {
 
             ListStudentFragment.students=new ArrayList<Student>();//materias.get(i).getStudents();
             TakeAssistanceFragment.students=new ArrayList<Student>();
+                currentClass=materias.get(i);
             for (int j = 0; j <materias.get(i).getStudents().size() ; j++) {
                 ListStudentFragment.students.add(materias.get(i).getStudents().get(j));
                 TakeAssistanceFragment.students.add(materias.get(i).getStudents().get(j));

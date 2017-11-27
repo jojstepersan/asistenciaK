@@ -1,6 +1,5 @@
 package co.edu.konradlorenz.takeassistance.activities;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -12,10 +11,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-import java.util.Scanner;
-
 import co.edu.konradlorenz.takeassistance.R;
-import co.edu.konradlorenz.takeassistance.fragments.ListClassesFragment;
 import co.edu.konradlorenz.takeassistance.fragments.ListStudentFragment;
 import co.edu.konradlorenz.takeassistance.fragments.ProfileFragment;
 import co.edu.konradlorenz.takeassistance.fragments.TakeAssistanceFragment;
