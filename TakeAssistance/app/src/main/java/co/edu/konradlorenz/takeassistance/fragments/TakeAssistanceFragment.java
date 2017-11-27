@@ -1,7 +1,6 @@
 package co.edu.konradlorenz.takeassistance.fragments;
 
 import android.content.Context;
-import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -12,21 +11,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
-
 import com.google.android.gms.vision.CameraSource;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-
 import java.util.ArrayList;
 import java.util.Date;
-
 import co.edu.konradlorenz.takeassistance.R;
 import co.edu.konradlorenz.takeassistance.activities.ClassesActivity;
-import co.edu.konradlorenz.takeassistance.activities.QRActivity;
 import co.edu.konradlorenz.takeassistance.entities.Assistance;
-import co.edu.konradlorenz.takeassistance.entities.Class;
 import co.edu.konradlorenz.takeassistance.entities.Student;
 
 /**
