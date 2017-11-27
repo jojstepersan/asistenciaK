@@ -3819,10 +3819,18 @@ containing a value of this type.
     public static final class mipmap {
         public static final int clases=0x7f030000;
         public static final int ic_launcher=0x7f030001;
-        public static final int ic_launcher_round=0x7f030002;
-        public static final int ic_lock_black=0x7f030003;
-        public static final int ic_take_assistance=0x7f030004;
-        public static final int mario=0x7f030005;
+        public static final int ic_launcher_kevin=0x7f030002;
+        public static final int ic_launcher_mario=0x7f030003;
+        public static final int ic_launcher_round=0x7f030004;
+        public static final int ic_launcherbrendi=0x7f030005;
+        public static final int ic_launcherdaniela=0x7f030006;
+        public static final int ic_launchergerman=0x7f030007;
+        public static final int ic_launcherjuan=0x7f030008;
+        public static final int ic_launcherstivven=0x7f030009;
+        public static final int ic_launchervale=0x7f03000a;
+        public static final int ic_lock_black=0x7f03000b;
+        public static final int ic_take_assistance=0x7f03000c;
+        public static final int mario=0x7f03000d;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f070000;

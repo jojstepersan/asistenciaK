@@ -452,14 +452,24 @@
         "source": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/C:\\Users\\LauraValentina\\.android\\build-cache\\c9258f6c027353baaac1d2b6dd563183cb26664f\\output\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_disabled.9.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
         "source": "/home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
+=======
+>>>>>>> valentina's_branch
         "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal.9.png",
         "source": "/home/jojstepersan/.android/build-cache/a8de729798d902fa086dc4d7accfbb0e757e4d0d/output/res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal.9.png"
     },
     {
+<<<<<<< HEAD
+=======
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "/home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+>>>>>>> valentina's_branch
         "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
         "source": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/C:\\Users\\LauraValentina\\.android\\build-cache\\c9258f6c027353baaac1d2b6dd563183cb26664f\\output\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_normal.9.png"
     },

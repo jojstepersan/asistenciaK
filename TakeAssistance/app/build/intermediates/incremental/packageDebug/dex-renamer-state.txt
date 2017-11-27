@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #Mon Nov 27 01:21:01 COT 2017
+=======
+#Mon Nov 27 11:03:20 COT 2017
+>>>>>>> valentina's_branch
 base.0=/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
 file.0=/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

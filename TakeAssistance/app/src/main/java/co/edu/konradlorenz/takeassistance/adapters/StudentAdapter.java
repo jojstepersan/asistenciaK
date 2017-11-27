@@ -40,6 +40,34 @@ public class StudentAdapter extends ArrayAdapter<Student> {
         TextView name=(TextView)currentView.findViewById(R.id.list_materia_name);
         TextView code=(TextView)currentView.findViewById(R.id.list_materia_id);
 
+        switch ((int)currentItem.getCode()){
+            case 506151084:
+                icon.setImageResource(R.mipmap.ic_launcher_mario);
+                break;
+
+            case 506151030:
+                icon.setImageResource(R.mipmap.ic_launcher_kevin);
+                break;
+            case 506151064:
+                icon.setImageResource(R.mipmap.ic_launcherstivven);
+                break;
+
+            case 506151040:
+                icon.setImageResource(R.mipmap.ic_launcherjuan);
+                break;
+            case 506151050:
+                icon.setImageResource(R.mipmap.ic_launchervale);
+                break;
+            case 506151094:
+                icon.setImageResource(R.mipmap.ic_launcherbrendi);
+                break;
+
+            case 506151004:
+                icon.setImageResource(R.mipmap.ic_launcherdaniela);
+                break;
+
+
+        }
 
         //icon.setImageResource(R.mipmap.ic_launcher);
 
@@ -47,7 +75,6 @@ public class StudentAdapter extends ArrayAdapter<Student> {
             name.setText(currentItem.getName());
         if(code!=null && currentItem.getCode()!=0)
             code.setText(""+currentItem.getCode());
-
 
         return currentView;
     }
