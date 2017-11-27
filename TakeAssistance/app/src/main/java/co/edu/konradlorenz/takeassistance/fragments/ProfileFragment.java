@@ -91,7 +91,7 @@ public class ProfileFragment extends Fragment {
         singOut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                LoginActivity.login=false;
+               // LoginActivity.login=false;
                 Intent intent =new Intent(getActivity().getApplicationContext(),LoginActivity.class);
                 Log.d("singOut","me sali de esta joda");
                 startActivity(intent);

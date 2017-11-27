@@ -25,7 +25,7 @@ import co.edu.konradlorenz.takeassistance.R;
 
 public class LoginActivity extends MainActivity implements View.OnClickListener {
 
-    public static boolean login=false;
+ //   public static boolean login=false;
     private Button buttonLogin;
     private EditText editTextUser;
     private EditText editTextPassword;
@@ -37,6 +37,7 @@ public class LoginActivity extends MainActivity implements View.OnClickListener 
 
     // [START declare_auth]
     private FirebaseAuth mAuth;
+    private FirebaseUser currentUser;
     // [END declare_auth]
 
     @Override
@@ -60,10 +61,10 @@ public class LoginActivity extends MainActivity implements View.OnClickListener 
 
         // traen el shared preference login
 
-        Intent intent = new Intent(LoginActivity.this,ClassesActivity.class);
-        if(login)
-           startActivity(intent);
-
+      //  Intent intent = new Intent(LoginActivity.this,ClassesActivity.class);
+       // if(login)
+     //  startActivity(intent);
+//
 
         // [END initialize_auth]
     }
@@ -73,7 +74,7 @@ public class LoginActivity extends MainActivity implements View.OnClickListener 
     public void onStart() {
         super.onStart();
         // Check if user is signed in (non-null) and update UI accordingly.
-        FirebaseUser currentUser = mAuth.getCurrentUser();
+       currentUser = mAuth.getCurrentUser();
         updateUI(currentUser);
     }
     // [END on_start_check_user]
@@ -131,7 +132,9 @@ public class LoginActivity extends MainActivity implements View.OnClickListener 
 
                             FirebaseUser user = mAuth.getCurrentUser();
                             updateUI(user);
-                            login = true;
+                            Intent intent = new Intent(LoginActivity.this,MainActivity.class);
+                            startActivity(intent);
+                            //login = true;
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w(TAG, "signInWithEmail:failure", task.getException());

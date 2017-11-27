@@ -1,11 +1,31 @@
 [
     {
+        "merged": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcherbrendi.png",
+        "source": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcherbrendi.png"
+    },
+    {
         "merged": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\mario.png",
         "source": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\src\\main\\res\\mipmap-hdpi\\mario.png"
     },
     {
+        "merged": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launchervale.png",
+        "source": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\src\\main\\res\\mipmap-hdpi\\ic_launchervale.png"
+    },
+    {
+        "merged": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_mario.png",
+        "source": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_mario.png"
+    },
+    {
+        "merged": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_kevin.png",
+        "source": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_kevin.png"
+    },
+    {
         "merged": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\clases.png",
         "source": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\src\\main\\res\\mipmap-hdpi\\clases.png"
+    },
+    {
+        "merged": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcherjuan.png",
+        "source": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcherjuan.png"
     },
     {
         "merged": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_lock_black.png",
@@ -18,6 +38,18 @@
     {
         "merged": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
         "source": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcherdaniela.png",
+        "source": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcherdaniela.png"
+    },
+    {
+        "merged": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcherstivven.png",
+        "source": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcherstivven.png"
+    },
+    {
+        "merged": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launchergerman.png",
+        "source": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\src\\main\\res\\mipmap-hdpi\\ic_launchergerman.png"
     },
     {
         "merged": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_take_assistance.png",
