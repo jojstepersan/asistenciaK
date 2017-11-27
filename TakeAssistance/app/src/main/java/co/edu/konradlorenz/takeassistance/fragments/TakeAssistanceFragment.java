@@ -90,17 +90,13 @@ public class TakeAssistanceFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
         View view=inflater.inflate(R.layout.fragment_take_assistance, container, false);
         Button button=(Button)view.findViewById(R.id.take_assistanse_button);
         final EditText code=(EditText)view.findViewById(R.id.take_assistance_code);
         button.setOnClickListener(new View.OnClickListener() {
                                       @Override
                                       public void onClick(View view) {
-<<<<<<< HEAD
 
-=======
->>>>>>> valentina's_branch
           try {
               long id = Long.valueOf(code.getText().toString());
               Log.d("code", id + "");
@@ -117,27 +113,18 @@ public class TakeAssistanceFragment extends Fragment {
                       break;
                   }
               }
-<<<<<<< HEAD
               if (i != ClassesActivity.currentClass.getStudents().size())
                   Toast.makeText(getContext(), "Este estudiante no es del grupo", Toast.LENGTH_SHORT).show();
 
               //  code.setHint("code");
-=======
-              if (i != ClassesActivity.currentClass.getStudents().size()) {
-                  Toast.makeText(getContext(), "Este estudiante no es del grupo", Toast.LENGTH_SHORT).show();
-                }
->>>>>>> valentina's_branch
+
               code.setText("");
           } catch (Exception e) {
               Toast.makeText(getContext(), "solo valores numericos", Toast.LENGTH_SHORT).show();
               code.setText("");
           }
       }
-<<<<<<< HEAD
   });
-=======
-                                  });
->>>>>>> valentina's_branch
 
                 Button button2 = (Button) view.findViewById(R.id.go_to_camara);
                 button2.setOnClickListener(new View.OnClickListener() {
@@ -171,7 +158,6 @@ public class TakeAssistanceFragment extends Fragment {
          //           + " must implement OnFragmentInteractionListener");
         }
     }
-
 
     @Override
     public void onDetach() {
