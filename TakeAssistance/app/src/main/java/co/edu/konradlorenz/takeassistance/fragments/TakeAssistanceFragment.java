@@ -98,33 +98,33 @@ public class TakeAssistanceFragment extends Fragment {
                                       @Override
                                       public void onClick(View view) {
 
-                                          try {
-                                              long id = Long.valueOf(code.getText().toString());
-                                              Log.d("code", id + "");
-                                              int i;
-                                              for (i = 0; i < ClassesActivity.currentClass.getStudents().size(); i++) {
-                                                  Student currentStudent = ClassesActivity.currentClass.getStudents().get(i);
-                                                  Log.d("code", currentStudent.getName() + " code " + i);
-                                                  if (id == currentStudent.getCode()) {
-                                                      if (currentStudent.getAssistances() == null)
-                                                          currentStudent.setAssistances(new ArrayList<Assistance>());
-                                                      currentStudent.getAssistances().add(new Assistance(new Date(), true));
-                                                      ref.child(ClassesActivity.key).setValue(ClassesActivity.teacher);
-                                                      Toast.makeText(getContext(), "asistencia exitosa", Toast.LENGTH_SHORT).show();
-                                                      break;
-                                                  }
-                                              }
-                                              if (i != ClassesActivity.currentClass.getStudents().size())
-                                                  Toast.makeText(getContext(), "Este estudiante no es del grupo", Toast.LENGTH_SHORT).show();
+          try {
+              long id = Long.valueOf(code.getText().toString());
+              Log.d("code", id + "");
+              int i;
+              for (i = 0; i < ClassesActivity.currentClass.getStudents().size(); i++) {
+                  Student currentStudent = ClassesActivity.currentClass.getStudents().get(i);
+                  Log.d("code", currentStudent.getName() + " code " + i);
+                  if (id == currentStudent.getCode()) {
+                      if (currentStudent.getAssistances() == null)
+                          currentStudent.setAssistances(new ArrayList<Assistance>());
+                      currentStudent.getAssistances().add(new Assistance(new Date(), true));
+                      ref.child(ClassesActivity.key).setValue(ClassesActivity.teacher);
+                      Toast.makeText(getContext(), "asistencia exitosa", Toast.LENGTH_SHORT).show();
+                      break;
+                  }
+              }
+              if (i != ClassesActivity.currentClass.getStudents().size())
+                  Toast.makeText(getContext(), "Este estudiante no es del grupo", Toast.LENGTH_SHORT).show();
 
-                                              //  code.setHint("code");
-                                              code.setText("");
-                                          } catch (Exception e) {
-                                              Toast.makeText(getContext(), "solo valores numericos", Toast.LENGTH_SHORT).show();
-                                              code.setText("");
-                                          }
-                                      }
-                                  });
+              //  code.setHint("code");
+              code.setText("");
+          } catch (Exception e) {
+              Toast.makeText(getContext(), "solo valores numericos", Toast.LENGTH_SHORT).show();
+              code.setText("");
+          }
+      }
+  });
 
                 Button button2 = (Button) view.findViewById(R.id.go_to_camara);
                 button2.setOnClickListener(new View.OnClickListener() {

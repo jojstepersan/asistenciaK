@@ -1,26 +1,50 @@
 [
     {
-        "merged": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher_round.png",
-        "source": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/clases.png",
+        "source": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/res/mipmap-xxxhdpi/clases.png"
     },
     {
-        "merged": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_take_assistance.png",
-        "source": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_take_assistance.png"
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher_round.png",
+        "source": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_lock_black.png",
-        "source": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_lock_black.png"
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\mario.png",
-        "source": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\src\\main\\res\\mipmap-xxxhdpi\\mario.png"
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_take_assistance.png",
+        "source": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_take_assistance.png"
     },
     {
-        "merged": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\clases.png",
-        "source": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\src\\main\\res\\mipmap-xxxhdpi\\clases.png"
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_lock_black.png",
+        "source": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_lock_black.png"
     },
     {
-        "merged": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/mario.png",
+        "source": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/res/mipmap-xxxhdpi/mario.png"
+    },
+    {
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\mario.png",
+        "source": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\src\\main\\res\\mipmap-xxxhdpi\\mario.png"
+    },
+    {
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\clases.png",
+        "source": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\src\\main\\res\\mipmap-xxxhdpi\\clases.png"
+    },
+    {
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_take_assistance.png",
+        "source": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/res/mipmap-xxxhdpi/ic_take_assistance.png"
+    },
+    {
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_lock_black.png",
+        "source": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/res/mipmap-xxxhdpi/ic_lock_black.png"
     }
 ]

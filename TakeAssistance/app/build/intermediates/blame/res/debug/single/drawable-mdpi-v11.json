@@ -1,6 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v11\\ic_mario.png",
-        "source": "C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\src\\main\\res\\drawable-mdpi-v11\\ic_mario.png"
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v11\\ic_mario.png",
+        "source": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/C:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\src\\main\\res\\drawable-mdpi-v11\\ic_mario.png"
+    },
+    {
+        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable-mdpi-v11/ic_mario.png",
+        "source": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/res/drawable-mdpi-v11/ic_mario.png"
     }
 ]

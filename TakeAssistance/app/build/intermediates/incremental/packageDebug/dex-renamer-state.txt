@@ -1,4 +1,4 @@
-#Mon Nov 27 00:35:19 COT 2017
-base.0=C\:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+#Mon Nov 27 01:21:01 COT 2017
+base.0=/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
-file.0=C\:\\Users\\LauraValentina\\Videos\\proyecto\\TakeAssistance\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+file.0=/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
