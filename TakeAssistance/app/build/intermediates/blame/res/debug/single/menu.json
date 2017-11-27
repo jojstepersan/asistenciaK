@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/menu/navigation.xml",
-        "source": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/src/main/res/menu/navigation.xml"
+        "merged": "C:\\home\\jojstepersan\\AndroidStudioProjects\\asistenciaK\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\menu\\navigation.xml",
+        "source": "C:\\home\\jojstepersan\\AndroidStudioProjects\\asistenciaK\\TakeAssistance\\app\\src\\main\\res\\menu\\navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Produccion\\Documents\\asistenciaK\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\menu\\navigation.xml",
+        "source": "C:\\Users\\Produccion\\Documents\\asistenciaK\\TakeAssistance\\app\\src\\main\\res\\menu\\navigation.xml"
     }
 ]

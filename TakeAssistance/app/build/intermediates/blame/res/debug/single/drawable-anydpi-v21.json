@@ -1,10 +1,18 @@
 [
     {
-        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
-        "source": "/home/jojstepersan/.android/build-cache/553e60e25b8edaa883aa3db1d4b8ef46032c21de/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+        "merged": "C:\\Users\\Produccion\\Documents\\asistenciaK\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Users\\Produccion\\.android\\build-cache\\7effc4d53b148881b54d3068f5e41ac7bda2b82f\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
     },
     {
-        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
-        "source": "/home/jojstepersan/.android/build-cache/553e60e25b8edaa883aa3db1d4b8ef46032c21de/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
+        "merged": "C:\\home\\jojstepersan\\AndroidStudioProjects\\asistenciaK\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\home\\jojstepersan\\.android\\build-cache\\553e60e25b8edaa883aa3db1d4b8ef46032c21de\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "C:\\home\\jojstepersan\\AndroidStudioProjects\\asistenciaK\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\home\\jojstepersan\\.android\\build-cache\\553e60e25b8edaa883aa3db1d4b8ef46032c21de\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+    },
+    {
+        "merged": "C:\\Users\\Produccion\\Documents\\asistenciaK\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\Produccion\\.android\\build-cache\\7effc4d53b148881b54d3068f5e41ac7bda2b82f\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     }
 ]

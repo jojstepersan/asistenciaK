@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/home/jojstepersan/AndroidStudioProjects/asistenciaK/TakeAssistance/app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
-        "source": "/home/jojstepersan/.android/build-cache/7d7d18f3ff950fc911ef40ab77f177beac220f73/output/res/drawable-v23/abc_control_background_material.xml"
+        "merged": "C:\\Users\\Produccion\\Documents\\asistenciaK\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
+        "source": "C:\\Users\\Produccion\\.android\\build-cache\\49d0276a50c20dbfb9c14b949b24f41a861505ba\\output\\res\\drawable-v23\\abc_control_background_material.xml"
+    },
+    {
+        "merged": "C:\\home\\jojstepersan\\AndroidStudioProjects\\asistenciaK\\TakeAssistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
+        "source": "C:\\home\\jojstepersan\\.android\\build-cache\\7d7d18f3ff950fc911ef40ab77f177beac220f73\\output\\res\\drawable-v23\\abc_control_background_material.xml"
     }
 ]
